@@ -8,7 +8,7 @@ def findFeature():
             "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
   label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
-  token = "1c039056e26d9aba28c256b83e2b1396ce52be8b" # <===
+  token = "INSERT TOKEN HERE" # <===
   request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
   res = urllib2.urlopen(request).read()
   labels = []

@@ -59,7 +59,7 @@ def secs(d0):
  
 def dump1(u,issues):
   global name_i
-  token = "1c039056e26d9aba28c256b83e2b1396ce52be8b" # <===
+  token = "InSERT TOKEN HERE" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
