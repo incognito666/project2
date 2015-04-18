@@ -59,7 +59,7 @@ def secs(d0):
  
 def dump1(u,issues):
   global name_i
-  token = "InSERT TOKEN HERE" # <===
+  token = "INSERT TOKEN HERE" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -110,7 +110,7 @@ def dump1(u,issues):
                  comments=comments,
                  what = label_name,
                  user = user,
-                 milestone = milestone,
+                 milestone_name = milestone,
                  updated = updtd,
                  milestone_created = milestone_created,
                  milestone_due = milestone_due,
