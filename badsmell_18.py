@@ -2,7 +2,7 @@ import urllib2
 import json
 
 def findFeature():
-  token = "604a29fab94b418dfc53ac3f61056e176c6d6352" # <=== new token
+  token = "add token here" # <=== new token
   request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
   res = urllib2.urlopen(request).read()
   labels = []
