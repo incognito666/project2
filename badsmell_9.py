@@ -8,9 +8,10 @@ def findFeature():
   running_avg = 0
   count = 0
   f = open("Data_Output.txt", "r")
-
+  diff=[]
   line = f.readline()
   issue_no = 0
+  sum1=0
   while line:
 ##      print(line)
 ##      print("---------------")
@@ -39,28 +40,38 @@ def findFeature():
       issue_created = line.find("when")
       issue_end = line.find(",",issue_created)
       issue_crtd = line[issue_created+6:issue_end]
+      temp=float(end_time)-float(issue_crtd)
+      diff.append(temp)
+      sum1+=temp
 
-      isMilestoneAssigned = line.find("milestone_due")
-      start = line.find(":",isMilestoneAssigned)
-      end = line.find(",",start)
-      substr = line[start+2:end].strip()
-      print "Milestone due is ",substr 
-##      running_avg+= float(end_time) - float(issue_crtd)
-      if substr is not "0" and substr is not "None":
-          print "here"
-          if substr is not None:
-            print "Time Taken ",float(end_time) - float(substr)
-            if end_time == "0" or (float(end_time) - float(substr)) >= 86400:
-                late_issues.append(issue_no)
-      else:
-          print "not found"
-          unassigned_issues[issue_no] = float(end_time) - float(issue_crtd)
-      covered_issues.append(issue_no)
+##      isMilestoneAssigned = line.find("milestone_due")
+##      start = line.find(":",isMilestoneAssigned)
+##      end = line.find(",",start)
+##      substr = line[start+2:end].strip()
+##      print "Milestone due is ",substr 
+####      running_avg+= float(end_time) - float(issue_crtd)
+##      if substr is not "0" and substr is not "None":
+##          print "here"
+##          if substr is not None:
+##            print "Time Taken ",float(end_time) - float(substr)
+##            if end_time == "0" or (float(end_time) - float(substr)) >= 86400:
+##                late_issues.append(issue_no)
+##      else:
+##          print "not found"
+##          unassigned_issues[issue_no] = float(end_time) - float(issue_crtd)
+##      covered_issues.append(issue_no)
       line  = f.readline()
   print(unassigned_issues)
   print("Late issues are ")
   print late_issues
-  print(covered_issues)# = []
+  print(diff)# = []
+  avg=sum1/len(diff)
+  print("avg is",avg)
   f.close()
-  
+  badsmell=0
+  for i in diff:
+    if i>2*avg:
+      badsmell+=1
+  if badsmell>1:
+    print("you stink",badsmell)
 findFeature()
