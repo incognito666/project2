@@ -8,7 +8,7 @@ def findFeature():
             "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
   label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
-  token = "5384e37c678695b0325a97bb5c003bd4ff73f607" # <===
+  token = "898e2ef7a5187f832b91de6357dbd2059ce61fb0" # <===
   request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
   res = urllib2.urlopen(request).read()
   labels = []
@@ -18,8 +18,7 @@ def findFeature():
     
   #f = open("Data_Output.txt", "r")
   f=open("Data_Output.txt","r")
-  really_bad=[]
-  comments=[]
+  long_update=[]
   line = f.readline()
   while line:
       #print(line)
@@ -27,41 +26,32 @@ def findFeature():
       if "ISSUE" in line:
 	  issue=line[6:-1]
 	  #print issue
-      target = line.find("comments")
-      target1=line.find("what")
+      target = line.find("when")
+      target1=line.find("ended")
       if target != -1:
           start = line.find(":",target)
           end = line.find(",",start)
-          substr = line[start+2:end]
+          substr = float(line[start+2:end])
 	  #print len(substr)
 	  #print substr
-	  if substr=='0':		
-		issue.split("\n")
-		#print issue
-		comments.append(issue)
       if target1 != -1:
           start1 = line.find(":",target1)
           end1 = line.find(",",start1)
-          substr1 = line[start1+2:end1]
+          substr1 = float(line[start1+2:end1])
           #print len(substr)
           #print substr1
-          if  substr1=="question":               
-                issue.split("\n")
-                really_bad.append(issue)
+          if(substr1-substr>1000):
+		long_update.append(issue)
  	
 
       line = f.readline()
-  if len(comments)!=0:
-	print "The following are issues with lack of communication:\n"
-	print comments
+  if len(long_update)!=0:
+	print "\nThe following are issues with long time to get updated:\n"
+	print set(long_update)
 	print "Badsmell detected"
 
-  if len(really_bad)!=0:
-        print "The following are issues with really bad communication:\n"
-        print really_bad
-        print "Really bad Badsmell detected"
   else:
-        print "All Issues have been well communicated"
+        print "All Issues have been well updated in timen\n"
 
   f.close()
   
