@@ -59,7 +59,7 @@ def secs(d0):
  
 def dump1(u,issues):
   global name_i
-  token = "INSERT TOKEN HERE" # <===
+  token = "4ffec4db3314ca8ab7c3a4e02b852ff13de5df02" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -73,9 +73,13 @@ def dump1(u,issues):
     issue_id = event['issue']['number']
     if not event.get('label'): continue
     created_at = secs(event['created_at'])
+    i_created_at = secs(event['issue']['created_at'])
     closed_at = 0
     if event['issue']['closed_at'] != None:
         closed_at = secs(event['issue']['closed_at'])
+        i_open_total = closed_at - i_created_at
+    else: 
+        i_open_total = -1
     comments = event['issue']['comments']
     action = event['event']
     label_name = event['label']['name']
@@ -105,7 +109,9 @@ def dump1(u,issues):
         milestone_closed_issues = event['issue']['milestone']['closed_issues']
         milestone_total = milestone_open_issues + milestone_closed_issues
     eventObj = L(when=created_at,
+                 opened=i_created_at,
                  ended=closed_at,
+                 alive=i_open_total,
                  action = action,
                  comments=comments,
                  what = label_name,
