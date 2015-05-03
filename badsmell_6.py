@@ -2,14 +2,14 @@ import urllib2
 import json
 
 def findFeature():
-    f = open("Data_Output.txt", "r")
+    f = open("Data_Output3.txt", "r")
     i=0
     line = f.readline()
     name=[]
     badsmell=0
     while line:
 ##        print line 
-        print("---------------")
+##        print("---------------")
         
         
         milestone_name=line.find("milestone_name")
@@ -24,29 +24,33 @@ def findFeature():
         if temp not in name:
             name.append(temp)
                     
-            print name
+##            print name
             due=0
             target=line.find("milestone_due")
             if target!=-1:
                 start = line.find(":",target)
                 end = line.find(",",start)
                 due = line[start+1:end]
-                print "**********"
-                print due
+##                print "**********"
+##                print due
             target=line.find("milestone_closed")
             closed=0
             if target!=-1:
                 start = line.find(":",target)
                 end = line.find(",",start)
                 closed = line[start+1:end]
-                print "**********"
-                print closed
+##                print "**********"
+##                print closed
             if closed == 'None' or due == 'None':
                 badsmell=badsmell+1
-                print "something is none!!!!!!!!!!!!"
+##                print "something is none!!!!!!!!!!!!"
                 pass
             time=float(closed)-float(due)
+            print "***************time************"
+            print time
             if time>86400:
+                print "***************time************bad"
+                print time
                 badsmell=badsmell+1
 
         line = f.readline()

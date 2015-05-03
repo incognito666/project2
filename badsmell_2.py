@@ -3,11 +3,13 @@ import json
 
 def findFeature():
   ##1. all labels are used
-  labels = ["Design","Code","Unit Test", "Integration Test",
-            "Code Review", "Recover", "bug", "duplicate", "enhancement",
-            "help wanted", "invalid", "question", "wontfix"]
+##  labels = ["Design","Code","Unit Test", "Integration Test",
+##            "Code Review", "Recover", "bug", "duplicate", "enhancement",
+##            "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
-  label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
+##  label_url = "https://api.github.com/repos/SuperCh-SE-NCSU/ProjectScraping/labels"
+##  label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
+  label_url = "https://api.github.com/repos/CSC510-2015-Axitron/maze/labels"
   token = "INSERT TOKEN HERE" # <===
   request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
   res = urllib2.urlopen(request).read()
@@ -17,7 +19,7 @@ def findFeature():
   for l in range(0,len(r)):
     labels.append(str(r[l]['name']))
     
-  f = open("Data_Output.txt", "r")
+  f = open("Data_Output3.txt", "r")
   print("All the labels are: ")
   print(labels)
 
