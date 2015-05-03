@@ -99,7 +99,10 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - We extract the total number of issues assigned to each milestone.  
 
 12. Just one issue in the milestone.
-  - We extract the total number of issues assigned to each milestone..  
+  - We extract the total number of issues assigned to each milestone.
+
+13. Lack of communication in issues.
+  - We extract the comments field and the Question field from the Data output files.  
 
 14. No update in the issues for a long time.
   - We extract created time, updated time for each issue. 
@@ -157,6 +160,9 @@ graphs here?
 
 12. Just one issue in the milestone.
   - For each issue, the `milestone_total` tag is checked; if it is one, it is a bad smell. 
+
+13. Lack of communication in the issues.
+  - For each issue, we check the comments and the question field. If there are no comments it means lack of communication and if the question field is empty, its considered as really bad smell. 
 
 14. No update in the issues for a long time.
   - For each issue, the difference between the issue opened at and updated at time is checked if its more than usual, this implies the issue has not been updated for a long time. 
