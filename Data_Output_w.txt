@@ -187,18 +187,18 @@ milestone_closed : 1427255366.0,	milestone_total : 8,	opened : 1425248248.0,	wha
 milestone_closed : 1427255366.0,	milestone_total : 8,	opened : 1425248248.0,	what : enhancement,	milestone_created : 1424905835.0,	milestone_name : V2,	when : 1425248248.0,	updated : 1427054409.0,	comments : 2,	ended : 1427054409.0,	milestone_due : 1427169600.0,	user : B,	action : labeled,	alive : 1806161.0
 
 ISSUE 36
-milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	when : 1427054428.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : labeled,	alive : 1709259.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	when : 1425348913.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : unlabeled,	alive : 1709259.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	when : 1425348906.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : labeled,	alive : 1709259.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : question,	milestone_created : None,	when : 1425345174.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : B,	action : labeled,	alive : 1709259.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	milestone_name : None,	when : 1427054428.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : labeled,	alive : 1709259.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	milestone_name : None,	when : 1425348913.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : unlabeled,	alive : 1709259.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : Solved,	milestone_created : None,	milestone_name : None,	when : 1425348906.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : A,	action : labeled,	alive : 1709259.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425345174.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1425345174.0,	updated : 1427054433.0,	comments : 2,	ended : 1427054433.0,	milestone_due : None,	user : B,	action : labeled,	alive : 1709259.0
 
 ISSUE 37
 milestone_closed : 1427577424.0,	milestone_total : 7,	opened : 1425399032.0,	what : Solved,	milestone_created : 1425345039.0,	milestone_name : System test and Report,	when : 1427054565.0,	updated : 1427054568.0,	comments : 3,	ended : 1427054568.0,	milestone_due : 1427428800.0,	user : A,	action : labeled,	alive : 1655536.0
 milestone_closed : 1427577424.0,	milestone_total : 7,	opened : 1425399032.0,	what : question,	milestone_created : 1425345039.0,	milestone_name : System test and Report,	when : 1425401250.0,	updated : 1427054568.0,	comments : 3,	ended : 1427054568.0,	milestone_due : 1427428800.0,	user : A,	action : labeled,	alive : 1655536.0
 
 ISSUE 38
-milestone_closed : None,	milestone_total : 0,	opened : 1425417428.0,	what : Solved,	milestone_created : None,	when : 1427054593.0,	updated : 1427054593.0,	comments : 2,	ended : 1426211791.0,	milestone_due : None,	user : A,	action : labeled,	alive : 794363.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425417428.0,	what : bug,	milestone_created : None,	when : 1425417428.0,	updated : 1427054593.0,	comments : 2,	ended : 1426211791.0,	milestone_due : None,	user : B,	action : labeled,	alive : 794363.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425417428.0,	what : Solved,	milestone_created : None,	milestone_name : None,	when : 1427054593.0,	updated : 1427054593.0,	comments : 2,	ended : 1426211791.0,	milestone_due : None,	user : A,	action : labeled,	alive : 794363.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425417428.0,	what : bug,	milestone_created : None,	milestone_name : None,	when : 1425417428.0,	updated : 1427054593.0,	comments : 2,	ended : 1426211791.0,	milestone_due : None,	user : B,	action : labeled,	alive : 794363.0
 
 ISSUE 39
 milestone_closed : 1427054275.0,	milestone_total : 19,	opened : 1425757602.0,	what : bug,	milestone_created : 1424905758.0,	milestone_name : V1,	when : 1425757620.0,	updated : 1426211760.0,	comments : 4,	ended : 1426211760.0,	milestone_due : 1425960000.0,	user : B,	action : labeled,	alive : 454158.0
@@ -220,7 +220,7 @@ ISSUE 43
 milestone_closed : 1427255366.0,	milestone_total : 8,	opened : 1426218781.0,	what : bug,	milestone_created : 1424905835.0,	milestone_name : V2,	when : 1426218781.0,	updated : 1427053883.0,	comments : 1,	ended : 1427053883.0,	milestone_due : 1427169600.0,	user : B,	action : labeled,	alive : 835102.0
 
 ISSUE 44
-milestone_closed : None,	milestone_total : 0,	opened : 1426283683.0,	what : Solved,	milestone_created : None,	when : 1427249095.0,	updated : 1427249115.0,	comments : 3,	ended : 1427249115.0,	milestone_due : None,	user : A,	action : labeled,	alive : 965432.0
+milestone_closed : None,	milestone_total : 0,	opened : 1426283683.0,	what : Solved,	milestone_created : None,	milestone_name : None,	when : 1427249095.0,	updated : 1427249115.0,	comments : 3,	ended : 1427249115.0,	milestone_due : None,	user : A,	action : labeled,	alive : 965432.0
 
 ISSUE 45
 milestone_closed : 1427255366.0,	milestone_total : 8,	opened : 1426393450.0,	what : Solved,	milestone_created : 1424905835.0,	milestone_name : V2,	when : 1427054767.0,	updated : 1427054769.0,	comments : 1,	ended : 1427054769.0,	milestone_due : 1427169600.0,	user : A,	action : labeled,	alive : 661319.0
@@ -266,27 +266,27 @@ milestone_closed : 1428205830.0,	milestone_total : 8,	opened : 1427937597.0,	wha
 milestone_closed : 1428205830.0,	milestone_total : 8,	opened : 1427937597.0,	what : invalid,	milestone_created : 1427255411.0,	milestone_name : Final release,	when : 1427937597.0,	updated : 1428205770.0,	comments : 0,	ended : 1428205770.0,	milestone_due : 1428120000.0,	user : B,	action : labeled,	alive : 268173.0
 
 ISSUE 62
-milestone_closed : None,	milestone_total : 0,	opened : 1428158030.0,	what : test,	milestone_created : None,	when : 1428158030.0,	updated : 1428329667.0,	comments : 2,	ended : 1428329667.0,	milestone_due : None,	user : B,	action : labeled,	alive : 171637.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428158030.0,	what : test,	milestone_created : None,	milestone_name : None,	when : 1428158030.0,	updated : 1428329667.0,	comments : 2,	ended : 1428329667.0,	milestone_due : None,	user : B,	action : labeled,	alive : 171637.0
 
 ISSUE 63
-milestone_closed : None,	milestone_total : 0,	opened : 1428158809.0,	what : question,	milestone_created : None,	when : 1428158809.0,	updated : 1428336885.0,	comments : 0,	ended : 1428336885.0,	milestone_due : None,	user : B,	action : labeled,	alive : 178076.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428158809.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1428158809.0,	updated : 1428336885.0,	comments : 0,	ended : 1428336885.0,	milestone_due : None,	user : B,	action : labeled,	alive : 178076.0
 
 ISSUE 64
-milestone_closed : None,	milestone_total : 0,	opened : 1428170682.0,	what : bug,	milestone_created : None,	when : 1428170848.0,	updated : 1428336934.0,	comments : 2,	ended : 1428336934.0,	milestone_due : None,	user : B,	action : labeled,	alive : 166252.0
-milestone_closed : None,	milestone_total : 0,	opened : 1428170682.0,	what : enhancement,	milestone_created : None,	when : 1428170840.0,	updated : 1428336934.0,	comments : 2,	ended : 1428336934.0,	milestone_due : None,	user : B,	action : labeled,	alive : 166252.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428170682.0,	what : bug,	milestone_created : None,	milestone_name : None,	when : 1428170848.0,	updated : 1428336934.0,	comments : 2,	ended : 1428336934.0,	milestone_due : None,	user : B,	action : labeled,	alive : 166252.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428170682.0,	what : enhancement,	milestone_created : None,	milestone_name : None,	when : 1428170840.0,	updated : 1428336934.0,	comments : 2,	ended : 1428336934.0,	milestone_due : None,	user : B,	action : labeled,	alive : 166252.0
 
 ISSUE 65
 milestone_closed : 1428205830.0,	milestone_total : 8,	opened : 1428200078.0,	what : enhancement,	milestone_created : 1427255411.0,	milestone_name : Final release,	when : 1428200086.0,	updated : 1428205800.0,	comments : 1,	ended : 1428205800.0,	milestone_due : 1428120000.0,	user : A,	action : labeled,	alive : 5722.0
 
 ISSUE 66
-milestone_closed : None,	milestone_total : 0,	opened : 1428250364.0,	what : develop,	milestone_created : None,	when : 1428250364.0,	updated : 1428373148.0,	comments : 1,	ended : 1428373148.0,	milestone_due : None,	user : B,	action : labeled,	alive : 122784.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428250364.0,	what : develop,	milestone_created : None,	milestone_name : None,	when : 1428250364.0,	updated : 1428373148.0,	comments : 1,	ended : 1428373148.0,	milestone_due : None,	user : B,	action : labeled,	alive : 122784.0
 
 ISSUE 67
-milestone_closed : None,	milestone_total : 0,	opened : 1428264547.0,	what : help wanted,	milestone_created : None,	when : 1428264547.0,	updated : 1428368320.0,	comments : 2,	ended : 1428368320.0,	milestone_due : None,	user : B,	action : labeled,	alive : 103773.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428264547.0,	what : help wanted,	milestone_created : None,	milestone_name : None,	when : 1428264547.0,	updated : 1428368320.0,	comments : 2,	ended : 1428368320.0,	milestone_due : None,	user : B,	action : labeled,	alive : 103773.0
 
 ISSUE 68
-milestone_closed : None,	milestone_total : 0,	opened : 1428343282.0,	what : question,	milestone_created : None,	when : 1428343293.0,	updated : 1428439191.0,	comments : 5,	ended : 1428439191.0,	milestone_due : None,	user : B,	action : labeled,	alive : 95909.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428343282.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1428343293.0,	updated : 1428439191.0,	comments : 5,	ended : 1428439191.0,	milestone_due : None,	user : B,	action : labeled,	alive : 95909.0
 
 ISSUE 69
-milestone_closed : None,	milestone_total : 0,	opened : 1428344167.0,	what : enhancement,	milestone_created : None,	when : 1428440030.0,	updated : 1428440036.0,	comments : 1,	ended : 1428440036.0,	milestone_due : None,	user : A,	action : labeled,	alive : 95869.0
+milestone_closed : None,	milestone_total : 0,	opened : 1428344167.0,	what : enhancement,	milestone_created : None,	milestone_name : None,	when : 1428440030.0,	updated : 1428440036.0,	comments : 1,	ended : 1428440036.0,	milestone_due : None,	user : A,	action : labeled,	alive : 95869.0
 
