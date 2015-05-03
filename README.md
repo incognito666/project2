@@ -118,7 +118,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - We extract created time, updated time for each issue. 
 
 15. Labels are applied and immediately removed from an issue
-  -   
+  - For this task, the labels "what" (Name of the label applied or unapplied to an issue), "action" (Tells whether a label as been applied or unapplied to an issue), and "when" (The time of each event) were used to tell when a label was applied and then taken off. 
 
 18. Only one step in whole development period.
   - We extract the number of labels used from the data output files.  
