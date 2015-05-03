@@ -1,7 +1,7 @@
 import string, os, sys
 
 def quick_labels():
-    f=open("Data_Output.txt", "r")
+    f=open("Data_Output_w.txt", "r")
     lines = f.readlines()
     index = 0
     quick_labels = {}

@@ -1,7 +1,7 @@
 import string, os, sys
 
 def issue_duration():
-    f=open("Data_Output_p.txt", "r")
+    f=open("Data_Output_w.txt", "r")
     lines = f.readlines()
     index = 0
     issue_durations = {}

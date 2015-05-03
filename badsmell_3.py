@@ -1,7 +1,7 @@
 import string, os, sys
 
 def naked_issue():
-    f=open("Data_Output.txt", "r")
+    f=open("Data_Output_w.txt", "r")
     lines = f.readlines()
     index = 0
     no_label_time = {}
