@@ -23,7 +23,17 @@ user = users[user]
 
 # 3.Tables  
 
-akeem  
+To place the data that we retrieved from the repos into a table we created a script named [table_gen.py] (https://github.com/incognito666/project2/blob/master/table_gen.py)  which parsed the data for the name of the attribute (i.e. "opened :" and "milestone_name :") to get the value of it and placed that value into a csv formatted table.  
+
+The csv table for each repo we did are located at:
+
+1) [Tarantula in Python] (https://github.com/incognito666/project2/blob/master/Data_Table_p.csv)    
+2) [Web Scraper] (https://github.com/incognito666/project2/blob/master/Data_Table_w.csv)    
+3) [Maze] (https://github.com/incognito666/project2/blob/master/Data_Table_m.csv) 
+
+The columns specify the attribute while the rows are the events which are grouped by issue and sorted from earliest to latest event for that issue. 
+
+The other tables created in this report follow the same data parsing structure. 
 
 # Data   
 
@@ -72,7 +82,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - For this task, the labels per issue are needed (from the data output file). Also required are all the labels of that project. This is extracted from the [label url] (https://api.github.com/repos/CSC510-2015-Axitron/maze/labels)  
 
 3. An issue is not assigned to a single label for a long period of time.
-  -    
+  - For this task, the labels "opened" (The time at which the issue was created) and "when" (The time of each event) for the first event are used to get the time at which the issue did not have a label. 
   
 4. There are no unassigned issues.
   - The User field is checked for each Issue.   
@@ -93,7 +103,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - The issue created and issue closed dates are extracted from the data output files.  
  
 10. Some issues have been open for too long. 
-  -   
+  - For this task, the alive parameter for each issue is collected. This parameter is the difference between "ended" (Time as which the issue is opened) and "opened" (Time as which the issue is opened) to give use the total time the issue was active. 
   
 11. No issues in the milestone.  
   - We extract the total number of issues assigned to each milestone.  
