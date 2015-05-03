@@ -7,17 +7,17 @@ def findFeature():
             "Code Review", "Recover", "bug", "duplicate", "enhancement",
             "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
-  label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
-  token = "559fc3d984be62f2115478b2e46385b1c1913bc6" # <===
-  request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
-  res = urllib2.urlopen(request).read()
-  labels = []
-  r = json.loads(res)
-  for l in range(0,len(r)):
-    labels.append(str(r[l]['name']))
+  #label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
+  #token = "559fc3d984be62f2115478b2e46385b1c1913bc6" # <===
+  #request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
+  #res = urllib2.urlopen(request).read()
+  #labels = []
+  #r = json.loads(res)
+  #for l in range(0,len(r)):
+   # labels.append(str(r[l]['name']))
     
   #f = open("Data_Output.txt", "r")
-  f=open("Data_Output.txt","r")
+  f=open("projectscrapping_Data_Output.txt","r")
   long_update=[]
   line = f.readline()
   while line:
@@ -40,7 +40,7 @@ def findFeature():
           substr1 = float(line[start1+2:end1])
           #print len(substr)
           #print substr1
-          if(substr1-substr>10000):
+          if(substr1-substr>1000000):
 		long_update.append(issue)
  	
 
@@ -48,6 +48,8 @@ def findFeature():
   if len(long_update)!=0:
 	print "\nThe following are issues with long time to get updated:\n"
 	print set(long_update)
+	
+	print "Total: " +  str(len(set(long_update)))
 	print "Badsmell detected"
 
   else:
