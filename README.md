@@ -94,7 +94,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   
 5. The number of commits by a member is not less that 25% of the commits.
   - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
-  - Link: https://github.com/incognito666/project2/blob/master/badsmell_5.py
+  - Link: 
  
 6. Milestones not met on time.
   - For this task, we extract the milestone due date and the milestone closed time from the data output files.  
@@ -126,7 +126,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
 
 13. Lack of communication in issues.
   - We extract the comments field from the data output files.  
-  - Link: https://github.com/incognito666/project2/blob/master/badsmell_13.py
+  - Link: 
 
 14. No update in the issues for a long time.
   - We extract created time, updated time for each issue.  
@@ -201,7 +201,7 @@ graphs here?
 
 13. Lack of communication in the issues.
   - For each issue, we check the comments and the question field. If there are no comments it means lack of communication and if the question field is empty, its considered as really bad smell.  
-  - Link: https://github.com/incognito666/project2/blob/master/badsmell_13.py
+  - Link: 
 
 14. No update in the issues for a long time.
   - For each issue, the difference between the issue opened at and updated at time is checked if its more than usual, this implies the issue has not been updated for a long time. 
