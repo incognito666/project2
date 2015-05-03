@@ -132,7 +132,7 @@ graphs here?
   -    
   
 4. There are no unassigned issues.
-  - 
+  -The User fields for each Issue are checked for values, if exists or not. If the User field is empty means that Issue has not been assigned to anyone.  
   
 5. The number of commits by a member is not less that 25% of the commits.
   - 
@@ -144,7 +144,7 @@ graphs here?
   - 
  
 8. All the issue  have not been resolved.
-  - 
+  - After getting the closed times for all the Issues, we check if there is a closed time or not. If that field is empty it means the Issue has not been closed or resolved.
   
 9. Issues are not closed on time.  
   - The duration of each issue is calculated by subtracting the issue closed time from the issue created time. The average of all these durations is calculated. If there is any duration that is two times more than this average, it is a bad smell.  
@@ -159,7 +159,7 @@ graphs here?
   - For each issue, the `milestone_total` tag is checked; if it is one, it is a bad smell. 
 
 14. No update in the issues for a long time.
-  - 
+  - For each issue, the difference between the issue opened at and updated at time is checked if its more than usual, this implies the issue has not been updated for a long time. 
 
 15. Labels are applied and immediately removed from an issue
   -   
