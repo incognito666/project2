@@ -82,7 +82,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - For this task, the labels per issue are needed (from the data output file). Also required are all the labels of that project. This is extracted from the [label url] (https://api.github.com/repos/CSC510-2015-Axitron/maze/labels)  
 
 3. An issue is not assigned to a single label for a long period of time.
-  -    
+  - For this task, the labels "opened" (The time at which the issue was created) and "when" (The time of each event) for the first event are used to get the time at which the issue did not have a label. 
   
 4. There are no unassigned issues.
   - The User field is checked for each Issue.   
@@ -103,7 +103,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - The issue created and issue closed dates are extracted from the data output files.  
  
 10. Some issues have been open for too long. 
-  -   
+  - For this task, the alive parameter for each issue is collected. This parameter is the difference between "ended" (Time as which the issue is opened) and "opened" (Time as which the issue is opened) to give use the total time the issue was active. 
   
 11. No issues in the milestone.  
   - We extract the total number of issues assigned to each milestone.  
