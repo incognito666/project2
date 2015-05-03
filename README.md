@@ -87,7 +87,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - This is a manual task. We check the commit logs and the dates of submissions.  
  
 8. All the issue  have not been resolved.
-  - For this task we extracted the closed time.   
+  - The closed time has been checked for each issue.   
   
 9. Issues are not closed on time.  
   - The issue created and issue closed dates are extracted from the data output files.  
