@@ -18,17 +18,17 @@ ISSUE 3
 milestone_closed : 1425941525.0,	milestone_total : 3,	opened : 1423886884.0,	what : question,	milestone_created : 1424976887.0,	milestone_name : Get figleaf up and running,	when : 1423943668.0,	updated : 1425169392.0,	comments : 2,	ended : 1425169392.0,	milestone_due : 1425013200.0,	user : C,	action : labeled,	alive : 1282508.0
 
 ISSUE 4
-milestone_closed : None,	milestone_total : 0,	opened : 1423886965.0,	what : wontfix,	milestone_created : None,	when : 1427068137.0,	updated : 1427068137.0,	comments : 1,	ended : 1427068117.0,	milestone_due : None,	user : C,	action : labeled,	alive : 3181152.0
-milestone_closed : None,	milestone_total : 0,	opened : 1423886965.0,	what : question,	milestone_created : None,	when : 1423943602.0,	updated : 1427068137.0,	comments : 1,	ended : 1427068117.0,	milestone_due : None,	user : C,	action : labeled,	alive : 3181152.0
+milestone_closed : None,	milestone_total : 0,	opened : 1423886965.0,	what : wontfix,	milestone_created : None,	milestone_name : None,	when : 1427068137.0,	updated : 1427068137.0,	comments : 1,	ended : 1427068117.0,	milestone_due : None,	user : C,	action : labeled,	alive : 3181152.0
+milestone_closed : None,	milestone_total : 0,	opened : 1423886965.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1423943602.0,	updated : 1427068137.0,	comments : 1,	ended : 1427068117.0,	milestone_due : None,	user : C,	action : labeled,	alive : 3181152.0
 
 ISSUE 5
-milestone_closed : None,	milestone_total : 0,	opened : 1423887403.0,	what : question,	milestone_created : None,	when : 1423943578.0,	updated : 1425942122.0,	comments : 1,	ended : 1425942122.0,	milestone_due : None,	user : C,	action : labeled,	alive : 2054719.0
+milestone_closed : None,	milestone_total : 0,	opened : 1423887403.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1423943578.0,	updated : 1425942122.0,	comments : 1,	ended : 1425942122.0,	milestone_due : None,	user : C,	action : labeled,	alive : 2054719.0
 
 ISSUE 6
 milestone_closed : 1425138166.0,	milestone_total : 6,	opened : 1423937199.0,	what : Design,	milestone_created : 1424976835.0,	milestone_name : Get coverage code up and running,	when : 1423943493.0,	updated : 1424977017.0,	comments : 1,	ended : 1423938179.0,	milestone_due : 1424926800.0,	user : C,	action : labeled,	alive : 980.0
 
 ISSUE 7
-milestone_closed : None,	milestone_total : 0,	opened : 1423938311.0,	what : Code,	milestone_created : None,	when : 1423943557.0,	updated : 1424018938.0,	comments : 1,	ended : 1424018938.0,	milestone_due : None,	user : C,	action : labeled,	alive : 80627.0
+milestone_closed : None,	milestone_total : 0,	opened : 1423938311.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1423943557.0,	updated : 1424018938.0,	comments : 1,	ended : 1424018938.0,	milestone_due : None,	user : C,	action : labeled,	alive : 80627.0
 
 ISSUE 8
 milestone_closed : 1425138166.0,	milestone_total : 6,	opened : 1423943468.0,	what : Design,	milestone_created : 1424976835.0,	milestone_name : Get coverage code up and running,	when : 1423943696.0,	updated : 1424977007.0,	comments : 1,	ended : 1423962845.0,	milestone_due : 1424926800.0,	user : C,	action : labeled,	alive : 19377.0
@@ -51,7 +51,7 @@ ISSUE 13
 milestone_closed : 1425138166.0,	milestone_total : 6,	opened : 1424011468.0,	what : Code,	milestone_created : 1424976835.0,	milestone_name : Get coverage code up and running,	when : 1424011468.0,	updated : 1424976974.0,	comments : 1,	ended : 1424018890.0,	milestone_due : 1424926800.0,	user : D,	action : labeled,	alive : 7422.0
 
 ISSUE 14
-milestone_closed : None,	milestone_total : 0,	opened : 1424226907.0,	what : Code,	milestone_created : None,	when : 1424227892.0,	updated : 1424639877.0,	comments : 0,	ended : 1424639877.0,	milestone_due : None,	user : A,	action : labeled,	alive : 412970.0
+milestone_closed : None,	milestone_total : 0,	opened : 1424226907.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1424227892.0,	updated : 1424639877.0,	comments : 0,	ended : 1424639877.0,	milestone_due : None,	user : A,	action : labeled,	alive : 412970.0
 
 ISSUE 15
 milestone_closed : 1425941525.0,	milestone_total : 3,	opened : 1424227710.0,	what : Design,	milestone_created : 1424976887.0,	milestone_name : Get figleaf up and running,	when : 1424227710.0,	updated : 1424983263.0,	comments : 1,	ended : 1424227748.0,	milestone_due : 1425013200.0,	user : E,	action : labeled,	alive : 38.0
@@ -60,7 +60,7 @@ ISSUE 16
 milestone_closed : 1425941525.0,	milestone_total : 3,	opened : 1424287964.0,	what : Code,	milestone_created : 1424976887.0,	milestone_name : Get figleaf up and running,	when : 1424287964.0,	updated : 1424983239.0,	comments : 2,	ended : 1424312399.0,	milestone_due : 1425013200.0,	user : E,	action : labeled,	alive : 24435.0
 
 ISSUE 17
-milestone_closed : None,	milestone_total : 0,	opened : 1424309342.0,	what : Code,	milestone_created : None,	when : 1425169234.0,	updated : 1425169311.0,	comments : 2,	ended : 1425169311.0,	milestone_due : None,	user : B,	action : labeled,	alive : 859969.0
+milestone_closed : None,	milestone_total : 0,	opened : 1424309342.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1425169234.0,	updated : 1425169311.0,	comments : 2,	ended : 1425169311.0,	milestone_due : None,	user : B,	action : labeled,	alive : 859969.0
 
 ISSUE 18
 milestone_closed : 1426626852.0,	milestone_total : 3,	opened : 1424539561.0,	what : Integration Test,	milestone_created : 1424985609.0,	milestone_name : Create code graph from Trace output,	when : 1427865453.0,	updated : 1428421959.0,	comments : 0,	ended : 1428421959.0,	milestone_due : 0,	user : A,	action : labeled,	alive : 3882398.0
@@ -68,17 +68,17 @@ milestone_closed : 1426626852.0,	milestone_total : 3,	opened : 1424539561.0,	wha
 milestone_closed : 1426626852.0,	milestone_total : 3,	opened : 1424539561.0,	what : Code,	milestone_created : 1424985609.0,	milestone_name : Create code graph from Trace output,	when : 1424639818.0,	updated : 1428421959.0,	comments : 0,	ended : 1428421959.0,	milestone_due : 0,	user : A,	action : labeled,	alive : 3882398.0
 
 ISSUE 19
-milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : Design,	milestone_created : None,	when : 1424644610.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
-milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : question,	milestone_created : None,	when : 1424644610.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
-milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : Code,	milestone_created : None,	when : 1424644596.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
+milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : Design,	milestone_created : None,	milestone_name : None,	when : 1424644610.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
+milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : question,	milestone_created : None,	milestone_name : None,	when : 1424644610.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
+milestone_closed : None,	milestone_total : 0,	opened : 1424644561.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1424644596.0,	updated : 1425546307.0,	comments : 0,	ended : 1425546307.0,	milestone_due : None,	user : A,	action : labeled,	alive : 901746.0
 
 ISSUE 20
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Refactor,	milestone_created : None,	when : 1428161875.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : A,	action : labeled,	alive : 4665883.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : enhancement,	milestone_created : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : unlabeled,	alive : 4665883.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code,	milestone_created : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : unlabeled,	alive : 4665883.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code Review,	milestone_created : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code,	milestone_created : None,	when : 1425138807.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
-milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : enhancement,	milestone_created : None,	when : 1425138807.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Refactor,	milestone_created : None,	milestone_name : None,	when : 1428161875.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : A,	action : labeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : enhancement,	milestone_created : None,	milestone_name : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : unlabeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : unlabeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code Review,	milestone_created : None,	milestone_name : None,	when : 1425950411.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : Code,	milestone_created : None,	milestone_name : None,	when : 1425138807.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
+milestone_closed : None,	milestone_total : 0,	opened : 1425138807.0,	what : enhancement,	milestone_created : None,	milestone_name : None,	when : 1425138807.0,	updated : 1429804690.0,	comments : 4,	ended : 1429804690.0,	milestone_due : None,	user : C,	action : labeled,	alive : 4665883.0
 
 ISSUE 21
 milestone_closed : 1426626852.0,	milestone_total : 3,	opened : 1425546434.0,	what : Code,	milestone_created : 1424985609.0,	milestone_name : Create code graph from Trace output,	when : 1425587929.0,	updated : 1426129559.0,	comments : 1,	ended : 1426129559.0,	milestone_due : 0,	user : A,	action : labeled,	alive : 583125.0
@@ -127,7 +127,7 @@ milestone_closed : 1427736281.0,	milestone_total : 1,	opened : 1426357731.0,	wha
 milestone_closed : 1427736281.0,	milestone_total : 1,	opened : 1426357731.0,	what : Design,	milestone_created : 1424977200.0,	milestone_name : System testing for figleaf,	when : 1426357731.0,	updated : 1427736271.0,	comments : 2,	ended : 1427731534.0,	milestone_due : 1425790800.0,	user : C,	action : labeled,	alive : 1373803.0
 
 ISSUE 28
-milestone_closed : None,	milestone_total : 0,	opened : 1427733867.0,	what : Code Review,	milestone_created : None,	when : 1427733909.0,	updated : 1427867043.0,	comments : 2,	ended : 1427865419.0,	milestone_due : None,	user : B,	action : labeled,	alive : 131552.0
+milestone_closed : None,	milestone_total : 0,	opened : 1427733867.0,	what : Code Review,	milestone_created : None,	milestone_name : None,	when : 1427733909.0,	updated : 1427867043.0,	comments : 2,	ended : 1427865419.0,	milestone_due : None,	user : B,	action : labeled,	alive : 131552.0
 
 ISSUE 29
 milestone_closed : 1429804708.0,	milestone_total : 6,	opened : 1428095335.0,	what : Code,	milestone_created : 1426129465.0,	milestone_name : Make code more efficient,	when : 1428095335.0,	updated : 1429804667.0,	comments : 1,	ended : 1429804667.0,	milestone_due : 0,	user : A,	action : labeled,	alive : 1709332.0
