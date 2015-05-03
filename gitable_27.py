@@ -59,7 +59,7 @@ def secs(d0):
  
 def dump1(u,issues):
   global name_i
-  token = "94a01443e7c8b83e53f7d94cc6c6d73b0f91f820" # <===
+  token = "token" # <===
   request = urllib2.Request(u, headers={"Authorization" : "token "+token})
   v = urllib2.urlopen(request).read()
   w = json.loads(v)
@@ -144,7 +144,9 @@ def launchDump():
   issues = dict()
   while(True):
 ##    doNext = dump('https://api.github.com/repos/opensciences/opensciences.github.io/issues/events?page=' + str(page), issues)
-    doNext = dump('https://api.github.com/repos/incognito666/tarantula-python/issues/events?page=' + str(page), issues)
+##    doNext = dump('https://api.github.com/repos/incognito666/tarantula-python/issues/events?page=' + str(page), issues)
+##    doNext = dump('https://api.github.com/repos/SuperCh-SE-NCSU/ProjectScraping/issues/events?page=' + str(page), issues)
+    doNext = dump('https://api.github.com/repos/CSC510-2015-Axitron/maze/issues/events?page=' + str(page), issues)
     file.write("page "+ str(page)+'\n')
     page += 1
     if not doNext : break

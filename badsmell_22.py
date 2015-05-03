@@ -14,7 +14,7 @@ def findFeature():
 ##      print(line)
 ##      print("---------------")
       if line.startswith("ISSUE"):
-          print("issue line")
+##          print("issue line")
           issue_no = line[6:].strip()   # line = ISSUE <Number>
           line  = f.readline()
           continue
@@ -33,7 +33,7 @@ def findFeature():
   sorted_times = sorted(start_times)
 ##  print(sorted_times)
   print(start_times)
-  print(len(sorted_times))
+##  print(len(sorted_times))
   f.close()
   diff=[]
   sum1=0
@@ -41,8 +41,8 @@ def findFeature():
       temp=float(sorted_times[i+1])-float(sorted_times[i])
       diff.append(temp)
       sum1=sum1+temp
-  print ("diffs")
-  print(diff)
+##  print ("diffs")
+##  print(diff)
   avg=sum1/len(sorted_times)
   print("avg is",avg)
   for  j in diff:
