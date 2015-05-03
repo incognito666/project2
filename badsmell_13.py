@@ -7,16 +7,15 @@ def findFeature():
             "Code Review", "Recover", "bug", "duplicate", "enhancement",
             "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
-  #label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
-  #token = "5384e37c678695b0325a97bb5c003bd4ff73f607" # <===
-  #request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
-  #res = urllib2.urlopen(request).read()
-  #labels = []
-  #r = json.loads(res)
-  #for l in range(0,len(r)):
-   # labels.append(str(r[l]['name']))
+  label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
+  token = "5384e37c678695b0325a97bb5c003bd4ff73f607" # <===
+  request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
+  res = urllib2.urlopen(request).read()
+  labels = []
+  r = json.loads(res)
+  for l in range(0,len(r)):
+    labels.append(str(r[l]['name']))
     
-  #f = open("Data_Output.txt", "r")
   f=open("Data_Output.txt","r")
   really_bad=[]
   comments=[]
