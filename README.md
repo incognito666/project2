@@ -86,8 +86,8 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
 7. Most of the commits are close to the submission dates. 
   - This is a manual task. We check the commit logs and the dates of submissions.  
  
-8. All the issue  have not been resolved.  
-  -This task needs to consider the closed time, to check if all the issues are well addressed. If the issues are not closed, it means that they are not resolved.    
+8. All the issue  have not been resolved.
+  - This task needs to consider the closed time, to check if all the issues are well addressed. If the issues are not closed, it means that they are not resolved.    
   
 9. Issues are not closed on time.  
   - The issue created and issue closed dates are extracted from the data output files.  
@@ -99,7 +99,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - We extract the total number of issues assigned to each milestone.  
 
 12. Just one issue in the milestone.
-  - We extract the total number of issues assigned to each milestone.  
+  - We extract the total number of issues assigned to each milestone to find out the milestones with single issue.  
 
 14. No update in the issues for a long time.
   - We check if the time taken to update a Issue is longer than usual to see if the Issue was ignored for a brief period of time. 
