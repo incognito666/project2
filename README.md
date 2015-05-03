@@ -68,7 +68,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
 1. A large percentage of commits are not done by a single person.  
   - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
  
-2. There are no unused/rarely used labels for issues.  
+2. There are no unused used labels for issues.  
   - For this task, the labels per issue are needed (from the data output file). Also required are all the labels of that project. This is extracted from the [label url] (https://api.github.com/repos/CSC510-2015-Axitron/maze/labels)  
 
 3. An issue is not assigned to a single label for a long period of time.
@@ -122,7 +122,57 @@ graphs here?
   
 # Bad Smells Detector  
 
-???  
+1. A large percentage of commits are not done by a single person.  
+  - 
+ 
+2. There are no unused used labels for issues.  
+  - The labels extracted directly from the label API are compared with the labels used in the issues. If there is any label which was not used in any of the issues, it is a bad smell.
+
+3. An issue is not assigned to a single label for a long period of time.
+  -    
+  
+4. There are no unassigned issues.
+  - 
+  
+5. The number of commits by a member is not less that 25% of the commits.
+  - 
+ 
+6. Milestones not met on time.
+  - The milestone end date is subtracted from the milestone due date. If the difference is more than one day, it is a bad smell. 
+  
+7. Most of the commits are close to the submission dates. 
+  - 
+ 
+8. All the issue  have not been resolved.
+  - 
+  
+9. Issues are not closed on time.  
+  - The duration of each issue is calculated by subtracting the issue closed time from the issue created time. The average of all these durations is calculated. If there is any duration that is two times more than this average, it is a bad smell.  
+ 
+10. Some issues have been open for too long. 
+  -   
+  
+11. No issues in the milestone.  
+  - For each issue, the `milestone_total` tag is checked; if it is zero that means no issues were assigned to this milestone and this is reported as bad smell. 
+
+12. Just one issue in the milestone.
+  - For each issue, the `milestone_total` tag is checked; if it is one, it is a bad smell. 
+
+14. No update in the issues for a long time.
+  - 
+
+15. Labels are applied and immediately removed from an issue
+  -   
+
+18. Only one step in whole development period.
+  - If there is only one label extracted from all the issues, this implies there was only one step in the lifecycle of the project (for example-no plan or design, direct code phase) it is a bad smell.
+ 
+19. God class.  
+  - 
+ 
+22. Issues are not posted frequently.  
+  - The duration between each consecutive issue is calculated by subtracting their creation times (`creation_time2-creation_time2`). The average of all these is caluclated. If any difference is greater than twice the calculated average, it is a bad smell.  
+
 
 # Bad Smells Results  
 
