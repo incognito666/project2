@@ -75,7 +75,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   -    
   
 4. There are no unassigned issues.
-  - The user field is checked for each Issue if its assigned or not. If there is no User assigned we add it to the unassigned Issue list and detect it as a badsmell.   
+  - The User field is checked for each Issue.   
   
 5. The number of commits by a member is not less that 25% of the commits.
   - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
@@ -87,7 +87,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - This is a manual task. We check the commit logs and the dates of submissions.  
  
 8. All the issue  have not been resolved.
-  - This task needs to consider the closed time, to check if all the issues are well addressed. If the issues are not closed, it means that they are not resolved.    
+  - For this task we extracted the closed time.   
   
 9. Issues are not closed on time.  
   - The issue created and issue closed dates are extracted from the data output files.  
@@ -99,10 +99,10 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   - We extract the total number of issues assigned to each milestone.  
 
 12. Just one issue in the milestone.
-  - We extract the total number of issues assigned to each milestone to find out the milestones with single issue.  
+  - We extract the total number of issues assigned to each milestone..  
 
 14. No update in the issues for a long time.
-  - We check if the time taken to update a Issue is longer than usual to see if the Issue was ignored for a brief period of time. 
+  - We extract created time, updated time for each issue. 
 
 15. Labels are applied and immediately removed from an issue
   -   
