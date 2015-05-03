@@ -35,7 +35,7 @@ We are detecting bad smells from three projects:
 For each project, we collected the following data:  
 - The issue number
 - When the milestones (that a particular issue was assigned to) were closed
-- The total number of milestones that were assigned a particular issue
+- The total number of issues that were assigned a particular milestone
 - When a issue was opened
 - The name of the issue
 - When each milestone was created
@@ -63,8 +63,58 @@ milestone_closed : 1425138166.0,	milestone_total : 6,	opened : 1423886852.0,	wha
 
 # Feature Detection  
 
-//our bad smell list  
+NOTE: Our feature extractor and bad smell detectors are not specified separately. For each bad smell, the corresponding features are extracted and then the code for bad smell detection is executed.  
 
+1. A large percentage of commits are not done by a single person.  
+  - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
+ 
+2. There are no unused/rarely used labels for issues.  
+  - For this task, the labels per issue are needed (from the data output file). Also required are all the labels of that project. This is extracted from the [label url] (https://api.github.com/repos/CSC510-2015-Axitron/maze/labels)  
+
+3. An issue is not assigned to a single label for a long period of time.
+  -    
+  
+4. There are no unassigned issues.
+  -   
+  
+5. The number of commits by a member is not less that 25% of the commits.
+  - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
+ 
+6. Milestones not met on time.
+  - For this task, we extract the milestone due date and the milestone closed time from the data output files.
+  
+7. Most of the commits are close to the submission dates. 
+  - This is a manual task. We check the commit logs and the dates of submissions.  
+ 
+8. All the issue  have not been resolved.  
+  -   
+  
+9. Issues are not closed on time.  
+  - The issue created and issue closed dates are extracted from the data output files.  
+ 
+10. Some issues have been open for too long. 
+  -   
+  
+11. No issues in the milestone.  
+  - We extract the total number of issues assigned to each milestone.  
+
+12. Just one issue in the milestone.
+  - We extract the total number of issues assigned to each milestone.  
+
+14. No update in the issues for a long time.
+  -   
+
+15. Labels are applied and immediately removed from an issue
+  -   
+
+18. Only one step in whole development period.
+  - We extract the number of labels used from the data output files.  
+ 
+19. God class.  
+  - This is a manual task. No feature can be extracted for this. We need to go to the repo and look at the project files.  
+ 
+22. Issues are not posted frequently.  
+  - We just need to extract the time each issue was created at.  
 
 # Feature Detection Results  
 
