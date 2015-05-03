@@ -8,7 +8,7 @@ def findFeature():
             "help wanted", "invalid", "question", "wontfix"]
   #fetch labels
   label_url = "https://api.github.com/repos/incognito666/tarantula-python/labels"
-  token = "898e2ef7a5187f832b91de6357dbd2059ce61fb0" # <===
+  token = "559fc3d984be62f2115478b2e46385b1c1913bc6" # <===
   request = urllib2.Request(label_url, headers={"Authorization" : "token "+token})
   res = urllib2.urlopen(request).read()
   labels = []
@@ -27,7 +27,7 @@ def findFeature():
 	  issue=line[6:-1]
 	  #print issue
       target = line.find("when")
-      target1=line.find("ended")
+      target1=line.find("updated")
       if target != -1:
           start = line.find(":",target)
           end = line.find(",",start)
@@ -40,7 +40,7 @@ def findFeature():
           substr1 = float(line[start1+2:end1])
           #print len(substr)
           #print substr1
-          if(substr1-substr>1000):
+          if(substr1-substr>10000):
 		long_update.append(issue)
  	
 
