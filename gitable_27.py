@@ -100,8 +100,9 @@ def dump1(u,issues):
     milestone_due = "None"
     milestone_created = "None"
     milestone_total = 0
+    milestone_name = "None"
     if milestone != None :
-        milestone = milestone['title']
+        milestone_name = milestone['title']
         milestone_created = secs(event['issue']['milestone']['created_at'])
         milestone_due = secs(event['issue']['milestone']['due_on'])
         milestone_closed = secs(event['issue']['milestone']['closed_at'])
@@ -116,7 +117,7 @@ def dump1(u,issues):
                  comments=comments,
                  what = label_name,
                  user = user,
-                 milestone_name = milestone,
+                 milestone_name = milestone_name,
                  updated = updtd,
                  milestone_created = milestone_created,
                  milestone_due = milestone_due,
@@ -139,7 +140,7 @@ def dump(u,issues):
 
 def launchDump():
   page = 1
-  file = open("Data_Output3.txt", "w")
+  file = open("Data_Output_p.txt", "w")
   issues = dict()
   while(True):
 ##    doNext = dump('https://api.github.com/repos/opensciences/opensciences.github.io/issues/events?page=' + str(page), issues)
@@ -155,6 +156,7 @@ def launchDump():
         file.write(event.show()+'\n')
         ## print to file after adding params
     file.write('\n')
+  print(users)
   file.close() 
     
 launchDump()

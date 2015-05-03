@@ -1,0 +1,97 @@
+ISSUE 1
+Time without any labels: 227014 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 2
+Time without any labels: 56663 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 3
+Time without any labels: 56784 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 4
+Time without any labels: 56637 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 5
+Time without any labels: 56175 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 6
+Time without any labels: 6294 seconds
+
+ISSUE 7
+Time without any labels: 5246 seconds
+
+ISSUE 8
+Time without any labels: 228 seconds
+
+ISSUE 9
+Time without any labels: 22692 seconds
+
+ISSUE 10
+Time without any labels: 0 seconds
+
+ISSUE 11
+Time without any labels: 760 seconds
+
+ISSUE 12
+Time without any labels: 0 seconds
+
+ISSUE 13
+Time without any labels: 0 seconds
+
+ISSUE 14
+Time without any labels: 985 seconds
+
+ISSUE 15
+Time without any labels: 0 seconds
+
+ISSUE 16
+Time without any labels: 0 seconds
+
+ISSUE 17
+Time without any labels: 859892 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 18
+Time without any labels: 100257 seconds
+Possible Badsmell. Issue was unlabelled for more than 12 hours (43200 seconds).
+
+ISSUE 19
+Time without any labels: 35 seconds
+
+ISSUE 20
+Time without any labels: 0 seconds
+
+ISSUE 21
+Time without any labels: 41495 seconds
+
+ISSUE 22
+Time without any labels: 8426 seconds
+
+ISSUE 23
+Time without any labels: 8446 seconds
+
+ISSUE 24
+Time without any labels: 0 seconds
+
+ISSUE 25
+Time without any labels: 27 seconds
+
+ISSUE 26
+Time without any labels: 0 seconds
+
+ISSUE 27
+Time without any labels: 0 seconds
+
+ISSUE 28
+Time without any labels: 42 seconds
+
+ISSUE 29
+Time without any labels: 0 seconds
+
+ISSUE 30
+Time without any labels: 0 seconds
+
