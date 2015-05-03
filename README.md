@@ -26,6 +26,7 @@ user = users[user]
 To place the data that we retrieved from the repos into a table we created a script named [table_gen.py] (https://github.com/incognito666/project2/blob/master/table_gen.py)  which parsed the data for the name of the attribute (i.e. "opened :" and "milestone_name :") to get the value of it and placed that value into a csv formatted table.  
 
 The csv table for each repo we did are located at:
+
 1) [Tarantula in Python] (https://github.com/incognito666/project2/blob/master/Data_Table_p.csv)    
 2) [Web Scraper] (https://github.com/incognito666/project2/blob/master/Data_Table_w.csv)    
 3) [Maze] (https://github.com/incognito666/project2/blob/master/Data_Table_m.csv) 
