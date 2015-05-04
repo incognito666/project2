@@ -168,6 +168,7 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 
  - Feature Design 15
     * Maze
+    
 | Issue | Label              | Time Label is open (seconds) |          |
 |-------|--------------------|------------------------------|----------|
 | 1     | help wanted        | 2655                         |          |
@@ -281,6 +282,7 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 | 92    | 3. feature QA      | 8584                         |          |
 
     * Tarantula
+    
 | Issue | Label       | Time Label is open (seconds) |          |
 |-------|-------------|------------------------------|----------|
 | 20    | enhancement | 811604                       |          |
@@ -296,6 +298,7 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 | 27    | Code Review | 16                           | Badsmell |
 
     * Web Scrapping
+    
 | Issue | Label       | Time Label is open (seconds) |          |
 |-------|-------------|------------------------------|----------|
 | 5     | help wanted | 80825                        |          |
