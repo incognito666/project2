@@ -225,11 +225,102 @@ graphs here?
 
 # Bad Smells Results  
 
+1. A large percentage of commits are not done by a single person.  
+  - 
+ 
+2. There are no unused used labels for issues. 
+  ![Image for Badsmell 2 - Tarantula] (https://github.com/incognito666/project2/blob/master/graph/badsmell_2_tarantula.png)  
+
+  ![Image for Badsmell 2 - Web Scraper] (https://github.com/incognito666/project2/blob/master/graph/badsmell_2_webscraper.png)  
+  
+  ![Image for Badsmell 2 - Mazes] (https://github.com/incognito666/project2/blob/master/graph/badsmell_2_mazes.png) 
+  
+3. An issue is not assigned to a single label for a long period of time.
+  
+4. There are no unassigned issues.
+
+5. The number of commits by a member is not less that 25% of the commits.
+ 
+6. Milestones not met on time.
+   ![Image of Badsmell 6] (https://github.com/incognito666/project2/blob/master/graph/badsmell_6.png)  
+
+7. Most of the commits are close to the submission dates. 
+
+8. All the issue  have not been resolved.
+
+9. Issues are not closed on time.
+  ![Image for Badsmell 9] (https://github.com/incognito666/project2/blob/master/graph/badsmell_9.png)  
+
+10. Some issues have been open for too long. 
+  
+11. No issues in the milestone.  
+   ![Image for Badsmell 11] (https://github.com/incognito666/project2/blob/master/graph/badsmell_11.png)  
+
+12. Just one issue in the milestone.
+
+13. Lack of communication in the issues.
+
+14. No update in the issues for a long time.
+
+15. Labels are applied and immediately removed from an issue
+
+18. Only one step in whole development period.
+  ![Image for Badsmell 18] (https://github.com/incognito666/project2/blob/master/graph/badsmell_18.png)  
+
+19. God class.  
+
+22. Issues are not posted frequently. 
+  ![Image for Badsmell 22] (https://github.com/incognito666/project2/blob/master/graph/badsmell_22.png)  
+
+
 # Early Warning  
 
-//scripts, description, links to code  
+
+We have 2 scripts for detecting bad smells early. The code for both of these is combined in a single file.  
+
+1. Graph of Issue Created times and trendine  
+
+  The code first finds out the creation times of all the issues that were created. The data is them sorted chronologically and kept in a list for plotting on the graph.  
+  While plotting the graphs, we plot (time the issue was created - time the first issue was created) on the Y axix and the issues along the x axis. The reason to subtract it from the time on the first issue is to get the relative time it took to create each issue. This graph gives us many points of observation like 
+  - If you have a horizontal line, all issues on that line were created together
+  - If you have a steep slope, it shown that there was a huge gap wherein no issues were created
+All these things are good but they could mean good as well as bad things, for eg. the issues created together could be during a review phase while the steep slope could mean that either there was no work done at all or it was a requirement gathering phase in an agile environment.  
+
+To help predict the bad smell at an early stage, we plot a polynomial trend line of the second order on the data present. This trendline will let us know the amount of issues that could be created later on. Also, the trendline gives us the baseline with with we can measure the relative progress. If the number of issues created go above the trendline, it means that the project is facing more issues and that could delay the project resulting in a bad smell.  
+
+2. Time taken between closing consecutive issues compared to a fixed value of 7 days  
+  The code finds out the time that each issue was closed. The data is then sorted and kept in a list for plotting on a graph. After that, we find the difference between the issue clsoe time and the close time of the issue chronologically closed before it. This data gives us the time taken between consecutive issues. We compare it with a baseline of 7 days (Since the project was about 2 months long). If no consecutive issues are closed within 7 days of each other, we can see that a slack is getting introduced in the project. The could mean that the team is not working at full potential and it might result in delaying a project.  
+
+[Link to Script] (https://github.com/incognito666/project2/blob/master/earlyDetection.py)  
 
 # Early Warning Results  
+
+1. Graph of Issue Created times and trendine  
+
+  - Tarantula  
+    ![Image of issue created time] (https://github.com/incognito666/project2/blob/master/graph/extra_created_tarantula.png)  
+    Here we can see that after issue no 17, there seemed to be a point where we could say that the project was going through a rough phase.  
+   
+  - Web Scraper  
+    ![Image of issue created time] (https://raw.githubusercontent.com/incognito666/project2/master/graph/extra_created_webscraper.png)  
+ Here we can see that there are 2 very distinct phases in the project with the second one being turbulet.  
+
+  - Mazes  
+    ![Image of issue created time] (https://raw.githubusercontent.com/incognito666/project2/master/graph/extra_created_mazes.png)  
+Here we see a similar trend but in the middle of the project.  
+
+2. Time taken between closing consecutive issues compared to a fixed value of 7 days  
+
+  - Tarantula
+  
+  ![Image of end time] (https://github.com/incognito666/project2/blob/master/graph/extra_ended_tarantula.png)  
+
+  - Web Scraper  
+  ![Image of end time] (https://github.com/incognito666/project2/blob/master/graph/extra_ended_webscraper.png)  
+
+  - Mazes  
+  ![Image of end time] (https://github.com/incognito666/project2/blob/master/graph/extra_ended_mazes.png)  
+
 
 
 
