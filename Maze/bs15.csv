@@ -1,110 +1,110 @@
-Issue,Label,Time Label is open (seconds),,5 Minute Limit
-1,help wanted,2655,,300
-1,feature request,2691,,300
-2,feature request,66080,,300
-2,feature dev,4684,,300
-2,feature QA,124615,,300
-2,help wanted,3767,,300
-5,feature request,102559,,300
-5,feature dev,160,Badsmell,300
-5,feature QA,27507,,300
-6,feature request,175687,,300
-6,feature dev,188719,,300
-6,feature dev,478581,,300
-6,help wanted,83151,,300
-6,feature QA,415335,,300
-6,feature dev,91201,,300
-7,feature request,697919,,300
-7,feature dev,472226,,300
-7,help wanted,15857,,300
-8,feature request,364451,,300
-8,feature QA,290326,,300
-9,feature QA,779671,,300
-9,feature dev,52573,,300
-10,feature request,340720,,300
-10,feature dev,328861,,300
-11,feature request,299966,,300
-11,feature dev,64039,,300
-12,feature dev,83556,,300
-13,feature request,3264,,300
-13,feature dev,198491,,300
-15,feature QA,202,Badsmell,300
-20,feature request,51781,,300
-20,feature dev,214071,,300
-20,feature QA,125553,,300
-21,deployment,720251,,300
-23,feature QA,24987,,300
-23,feature dev,24987,,300
-28,feature request,198725,,300
-34,feature request,264481,,300
-34,feature QA,89198,,300
-35,2a. feature dev,22977,,300
-36,2a. feature dev,5330,,300
-36,3. feature QA,61640,,300
-37,2a. feature dev,242969,,300
-38,2a. feature dev,266074,,300
-39,bug,4280,,300
-40,3. feature QA,59287,,300
-41,1. feature request,642106,,300
-41,2a. feature dev,33743,,300
-41,3. feature QA,161672,,300
-43,1. feature request,60387,,300
-43,2a. feature dev,8877,,300
-43,3. feature QA,6462,,300
-44,1. feature request,188738,,300
-44,2a. feature dev,346026,,300
-44,3. feature QA,120137,,300
-47,1. feature request,1119189,,300
-47,3. feature QA,6783,,300
-49,2a. feature dev,30593,,300
-49,3. feature QA,109177,,300
-51,1. feature request,599343,,300
-51,2a. feature dev,16247,,300
-51,3. feature QA,74227,,300
-53,1. feature request,330080,,300
-53,2a. feature dev,50268,,300
-53,3. feature QA,4599,,300
-54,1. feature request,23702,,300
-54,2a. feature dev,3077,,300
-56,1. feature request,57383,,300
-56,2a. feature dev,64040,,300
-56,3. feature QA,26605,,300
-58,1. feature request,234068,,300
-58,2a. feature dev,13380,,300
-58,3. feature QA,96689,,300
-59,1. feature request,344044,,300
-60,1. feature request,2310,,300
-61,1. feature request,341461,,300
-62,1. feature request,363243,,300
-64,1. feature request,78251,,300
-64,2a. feature dev,95841,,300
-65,5. bug,68334,,300
-68,1. feature request,181449,,300
-69,2a. feature dev,1117,,300
-69,3. feature QA,48111,,300
-70,1. feature request,26589,,300
-70,2a. feature dev,18376,,300
-70,3. feature QA,56615,,300
-71,1. feature request,12851,,300
-73,1. feature request,22700,,300
-74,1. feature request,16125,,300
-75,1. feature request,22704,,300
-75,2a. feature dev,50555,,300
-75,3. feature QA,26345,,300
-76,2a. feature dev,145636,,300
-77,1. feature request,530726,,300
-79,2a. feature dev,1092,,300
-81,2a. feature dev,204222,,300
-82,1. feature request,7606,,300
-82,2a. feature dev,366,,300
-82,3. feature QA,26178,,300
-84,2a. feature dev,26276,,300
-85,2a. feature dev,21362,,300
-86,2a. feature dev,21247,,300
-87,1. feature request,15391,,300
-88,2a. feature dev,151891,,300
-89,2a. feature dev,12143,,300
-89,3. feature QA,10882,,300
-90,2a. feature dev,34766,,300
-90,3. feature QA,451,,300
-92,3. feature QA,8584,,300
+Issue,Label,Time Label is open (seconds),
+1,help wanted,2655,
+1,feature request,2691,
+2,feature request,66080,
+2,feature dev,4684,
+2,feature QA,124615,
+2,help wanted,3767,
+5,feature request,102559,
+5,feature dev,160,Badsmell
+5,feature QA,27507,
+6,feature request,175687,
+6,feature dev,188719,
+6,feature dev,478581,
+6,help wanted,83151,
+6,feature QA,415335,
+6,feature dev,91201,
+7,feature request,697919,
+7,feature dev,472226,
+7,help wanted,15857,
+8,feature request,364451,
+8,feature QA,290326,
+9,feature QA,779671,
+9,feature dev,52573,
+10,feature request,340720,
+10,feature dev,328861,
+11,feature request,299966,
+11,feature dev,64039,
+12,feature dev,83556,
+13,feature request,3264,
+13,feature dev,198491,
+15,feature QA,202,Badsmell
+20,feature request,51781,
+20,feature dev,214071,
+20,feature QA,125553,
+21,deployment,720251,
+23,feature QA,24987,
+23,feature dev,24987,
+28,feature request,198725,
+34,feature request,264481,
+34,feature QA,89198,
+35,2a. feature dev,22977,
+36,2a. feature dev,5330,
+36,3. feature QA,61640,
+37,2a. feature dev,242969,
+38,2a. feature dev,266074,
+39,bug,4280,
+40,3. feature QA,59287,
+41,1. feature request,642106,
+41,2a. feature dev,33743,
+41,3. feature QA,161672,
+43,1. feature request,60387,
+43,2a. feature dev,8877,
+43,3. feature QA,6462,
+44,1. feature request,188738,
+44,2a. feature dev,346026,
+44,3. feature QA,120137,
+47,1. feature request,1119189,
+47,3. feature QA,6783,
+49,2a. feature dev,30593,
+49,3. feature QA,109177,
+51,1. feature request,599343,
+51,2a. feature dev,16247,
+51,3. feature QA,74227,
+53,1. feature request,330080,
+53,2a. feature dev,50268,
+53,3. feature QA,4599,
+54,1. feature request,23702,
+54,2a. feature dev,3077,
+56,1. feature request,57383,
+56,2a. feature dev,64040,
+56,3. feature QA,26605,
+58,1. feature request,234068,
+58,2a. feature dev,13380,
+58,3. feature QA,96689,
+59,1. feature request,344044,
+60,1. feature request,2310,
+61,1. feature request,341461,
+62,1. feature request,363243,
+64,1. feature request,78251,
+64,2a. feature dev,95841,
+65,5. bug,68334,
+68,1. feature request,181449,
+69,2a. feature dev,1117,
+69,3. feature QA,48111,
+70,1. feature request,26589,
+70,2a. feature dev,18376,
+70,3. feature QA,56615,
+71,1. feature request,12851,
+73,1. feature request,22700,
+74,1. feature request,16125,
+75,1. feature request,22704,
+75,2a. feature dev,50555,
+75,3. feature QA,26345,
+76,2a. feature dev,145636,
+77,1. feature request,530726,
+79,2a. feature dev,1092,
+81,2a. feature dev,204222,
+82,1. feature request,7606,
+82,2a. feature dev,366,
+82,3. feature QA,26178,
+84,2a. feature dev,26276,
+85,2a. feature dev,21362,
+86,2a. feature dev,21247,
+87,1. feature request,15391,
+88,2a. feature dev,151891,
+89,2a. feature dev,12143,
+89,3. feature QA,10882,
+90,2a. feature dev,34766,
+90,3. feature QA,451,
+92,3. feature QA,8584,
