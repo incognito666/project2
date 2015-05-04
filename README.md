@@ -277,7 +277,6 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 4. There are no unassigned issues.
 
-- For the projects Tarantula in python, project scraping and Maze generation all the issues have been assigned to someone. Hence this bad smell was not visible inany of these projects.
 
 5. The number of commits by a member is not less that 25% of the commits.
  
@@ -292,7 +291,6 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 8. All the issue  have not been resolved.   
 
-- For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects. 
 
 
 9. Issues are not closed on time.
@@ -308,37 +306,13 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 12. Just one issue in the milestone.
 
-The following graph has been plotted for the three projects indicating the number of bad smells.
-
-- The X axis of the graph indicates the project number where
- 1: tarantula in python
- 2: Project scrapping
- 3: Maze generation 
-
-The Y axis indicates the number of issues having this bad smell
-The green bar in the histogram indicates the bad smells.
-
-   ![Image for Badsmell 12] (https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)  
 
 13. Lack of communication in the issues.
 
   ADD GRAPH   
 
 14. No update in the issues for a long time.
-
-The following graph has been plotted for the three projects indicating the number of bad smells.
-
-- The X axis of the graph indicates the project number where
- 1: tarantula in python
- 2: Project scrapping
- 3: Maze generation 
-
-The Y axis indicates the number of issues having this bad smell
-The blue bar in the histogram indicates the bad smells.
-  
-   ![ImageforBadsmell14] (https://github.com/incognito666/project2/blob/master/graph/badsmell_14.png)
-
-
+	ADD GRAPH
 15. Labels are applied and immediately removed from an issue
 
    ADD GRAPH  
