@@ -384,22 +384,22 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 1. A large percentage of commits are not done by a single person.  
   - Tarantula  
   ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_p.png)  
-As seen in the figure above, the commits for this project are distributed fairly evenly. 
-Total Number of Commits: 60
-By each member, number of commits are 15, 13, ,12, 11, 9 sorted in descending order.  
+As seen in the figure above, the commits for this project are distributed fairly evenly.   
+Total Number of Commits: 60  
+By each member, number of commits are 15, 13, ,12, 11, 9 sorted in descending order.    
 
 
   - Web scraper  
   ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_w.png)  
-From the figure, we can observer that there is quite a big difference in the number of commits between A and C.  
-Total Number of Commits: 455
-By each member, number of commits are 193, 180, 62, 38 sorted in descending order.  
+From the figure, we can observer that there is quite a big difference in the number of commits between A and C.    
+Total Number of Commits: 455  
+By each member, number of commits are 193, 180, 62, 38 sorted in descending order.    
 
   - Maze  
   ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_m.png)  
-From the figure, we can observer that there is quite a big difference in the number of commits between A, C and D.  
-Total Number of Commits: 378
-By each member, number of commits are 151, 127, ,82 sorted in descending order.  
+From the figure, we can observer that there is quite a big difference in the number of commits between A, C and D.   
+Total Number of Commits: 378  
+By each member, number of commits are 151, 127, ,82 sorted in descending order.   
 
  
 2. There are no unused used labels for issues. 
@@ -536,14 +536,14 @@ We have 2 scripts for detecting bad smells early. The code for both of these is 
   While plotting the graphs, we plot (time the issue was created - time the first issue was created) on the Y axix and the issues along the x axis. The reason to subtract it from the time on the first issue is to get the relative time it took to create each issue. This graph gives us many points of observation like 
   - If you have a horizontal line, all issues on that line were created together
   - If you have a steep slope, it shown that there was a huge gap wherein no issues were created
-All these things are good but they could mean good as well as bad things, for eg. the issues created together could be during a review phase while the steep slope could mean that either there was no work done at all or it was a requirement gathering phase in an agile environment.  
+ All these things are good but they could mean good as well as bad things, for eg. the issues created together could be during a review phase while the steep slope could mean that either there was no work done at all or it was a requirement gathering phase in an agile environment.  
 
-To help predict the bad smell at an early stage, we plot a polynomial trend line of the second order on the data present. This trendline will let us know the amount of issues that could be created later on. Also, the trendline gives us the baseline with with we can measure the relative progress. If the number of issues created go above the trendline, it means that the project is facing more issues and that could delay the project resulting in a bad smell.  
+ To help predict the bad smell at an early stage, we plot a polynomial trend line of the second order on the data present. This trendline will let us know the amount of issues that could be created later on. Also, the trendline gives us the baseline with with we can measure the relative progress. If the number of issues created go above the trendline, it means that the project is facing more issues and that could delay the project resulting in a bad smell.  
 
 2. Time taken between closing consecutive issues compared to a fixed value of 7 days  
-  The code finds out the time that each issue was closed. The data is then sorted and kept in a list for plotting on a graph. After that, we find the difference between the issue clsoe time and the close time of the issue chronologically closed before it. This data gives us the time taken between consecutive issues. We compare it with a baseline of 7 days (Since the project was about 2 months long). If no consecutive issues are closed within 7 days of each other, we can see that a slack is getting introduced in the project. The could mean that the team is not working at full potential and it might result in delaying a project.  
+  The code finds out the time that each issue was closed. The data is then sorted and kept in a list for plotting on a graph.   After that, we find the difference between the issue clsoe time and the close time of the issue chronologically closed before it. This data gives us the time taken between consecutive issues. We compare it with a baseline of 7 days (Since the project was about 2 months long). If no consecutive issues are closed within 7 days of each other, we can see that a slack is getting introduced in the project. The could mean that the team is not working at full potential and it might result in delaying a project.  
 
-[Link to Script] (https://github.com/incognito666/project2/blob/master/earlyDetection.py)  
+ [Link to Script] (https://github.com/incognito666/project2/blob/master/earlyDetection.py)  
 
 # Early Warning Results  
 
