@@ -489,7 +489,13 @@ From the Graph you can see that there are 14 instanced where a Issues lasted twi
 
 13. Lack of communication in the issues.
 
-  ADD GRAPH   
+  The following graph has been plotted for the three projects indicating the number of bad smells and the number of really bad smells.
+   
+   ![ImageforBadsmell13] (https://github.com/incognito666/project2/blob/master/graph/badsmell_13_graph.png)
+
+  The X axis of the graph indicates the project number where they represent, tarantula in python, Project scrapping and Maze generation accordingly.   
+
+  The Y axis indicates the number of issues having this bad smell.The blue bar in the histogram indicates the really bad smells and the red bar indicates the bad smells.
 
 14. No update in the issues for a long time.
     
