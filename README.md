@@ -429,22 +429,22 @@ From the Graph you can see that there are 2 instanced where a Issue went over 12
 
 5. The number of commits by a member is not less that 25% of the commits.
  
-Looking at the graphs in #1. 
-- Tarantula  
+   Looking at the graphs in #1. 
+   - Tarantula  
  
-Total Number of Commits: 60
-By each member, number of commits are 15, 13, 12, 11, 9 sorted in descending order. You can see that each person should have about 12 Commits each. The lowest person has 9 commits which is less than 12 and could be flagged as a bad smell but the commits are fairly even. 
+   Total Number of Commits: 60
+   By each member, number of commits are 15, 13, 12, 11, 9 sorted in descending order. You can see that each person should have about 12 Commits each. The lowest person has 9 commits which is less than 12 and could be flagged as a bad smell but the commits are fairly even. 
 
 
-  - Web scraper  
+   - Web scraper  
   
-Total Number of Commits: 455
-By each member, number of commits are 193, 180, 62, 38 sorted in descending order. You can see that each person should have about 114 Commits each. The lowest person has 38 commits which would be a huge red flag. To fix this one could try and break up the features evenly. This could also be the outcome of having a group member who just commits multiple times a day then there is no problem really. 
+   Total Number of Commits: 455
+   By each member, number of commits are 193, 180, 62, 38 sorted in descending order. You can see that each person should have about 114 Commits each. The lowest person has 38 commits which would be a huge red flag. To fix this one could try and break up the features evenly. This could also be the outcome of having a group member who just commits multiple times a day then there is no problem really. 
 
-  - Maze  
+   - Maze  
  
-Total Number of Commits: 378
-By each member, number of commits are 151, 127, 82 sorted in descending order. You can see that each person should have about 126 Commits each. The lowest person has 82 commits which would be a bad smell. To fix this one could evenly distribute the features or have the code reviewers submit the code.  
+   Total Number of Commits: 378
+   By each member, number of commits are 151, 127, 82 sorted in descending order. You can see that each person should have about 126 Commits each. The lowest person has 82 commits which would be a bad smell. To fix this one could evenly distribute the features or have the code reviewers submit the code.  
 
 6. Milestones not met on time.
    ![Image of Badsmell 6] (https://github.com/incognito666/project2/blob/master/graph/badsmell_6.png)  
