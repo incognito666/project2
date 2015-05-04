@@ -277,7 +277,8 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 4. There are no unassigned issues.
 
-   ADD GRAPH   
+- All the issues must be assigned to someone or a group who needs to work on that and close it once the task has been finished. If an issue is opened but has not been assigned to anyone, then it is considered to be a bad smell.
+- For the projects Tarantula in python, project scraping and Maze generation all the issues have been assigned to someone. Hence this bad smell was not visible inany of these projects.
 
 5. The number of commits by a member is not less that 25% of the commits.
  
@@ -292,7 +293,8 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 8. All the issue  have not been resolved.   
 
-  ADD GRAPH   
+- All the issues must be resolved. If an issue is not closed it means that issue is a badsmell.
+- For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects. 
 
 
 9. Issues are not closed on time.
@@ -310,14 +312,16 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 This can be detected by number of Issues per milestone. If there are no more than one Issue per milestone then that is consider to be a bad smell.
 The following graph has been plotted for the three projects indicating the number of bad smells.
-The X axis of the graph indicates the project number where
-1: tarantula in python
-2: Project scrapping
-3: Maze generation 
+
+- The X axis of the graph indicates the project number where
+ - 1: tarantula in python
+ - 2: Project scrapping
+ - 3: Maze generation 
 
 The Y axis indicates the number of issues having this bad smell
 The green bar in the histogram indicates the bad smells.
-   ![Image for Badsmell 12](https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)  
+
+   ![Image for Badsmell 12] (https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)  
 
 13. Lack of communication in the issues.
 
@@ -325,7 +329,19 @@ The green bar in the histogram indicates the bad smells.
 
 14. No update in the issues for a long time.
 
-   ADD GRAPH  
+This can be detected by finding the difference between created and updated at time. If there are more than one issue with no update for long time it is considered as badsmell.
+The following graph has been plotted for the three projects indicating the number of bad smells.
+
+- The X axis of the graph indicates the project number where
+ - 1: tarantula in python
+ - 2: Project scrapping
+ - 3: Maze generation 
+
+The Y axis indicates the number of issues having this bad smell
+The blue bar in the histogram indicates the bad smells.
+  
+   ![ImageforBadsmell14] (https://github.com/incognito666/project2/blob/master/graph/badsmell_14.png)
+
 
 15. Labels are applied and immediately removed from an issue
 
