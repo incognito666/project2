@@ -307,20 +307,27 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 12. Just one issue in the milestone.
    
    The following graph has been plotted for the three projects indicating the number of bad smells.
+
    ![Image for Badsmell12] (https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)
    
    The X axis of the graph indicates the project number where they represent, tarantula in python, Project scrapping and Maze generation accordingly.
 
-   The Y axis indicates the number of issues having this bad smell.
-
-   The green bar in the histogram indicates the bad smells.
+   The Y axis indicates the number of issues having this bad smell. The green bar in the histogram indicates the bad smells.
 
 13. Lack of communication in the issues.
 
   ADD GRAPH   
 
 14. No update in the issues for a long time.
-	ADD GRAPH
+    
+    The following graph has been plotted for the three projects indicating the number of bad smells.
+
+    ![Image for Badsmell14] (https://github.com/incognito666/project2/blob/master/graph/badsmell_14.png)
+
+    The X axis of the graph indicates the project number where they represent, tarantula in python, Project scrapping and Maze generation accordingly.
+
+    The Y axis indicates the number of issues having this bad smell. The blue bar in the histogram indicates the bad smells.
+
 15. Labels are applied and immediately removed from an issue
 
    ADD GRAPH  
