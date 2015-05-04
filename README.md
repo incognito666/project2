@@ -78,7 +78,6 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
 
 1. A large percentage of commits are not done by a single person.  
   - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
-  - Link: 
  
 2. There are no unused used labels for issues.  
   - For this task, the labels per issue are needed (from the data output file). Also required are all the labels of that project. This is extracted from the [label API] (https://api.github.com/repos/CSC510-2015-Axitron/maze/labels).  
@@ -94,15 +93,13 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
   
 5. The number of commits by a member is not less that 25% of the commits.
   - This is a manual task. Each project contributors and contributions are checked. The number of commits are noted down.  
-  - Link: 
  
 6. Milestones not met on time.
   - For this task, we extract the milestone due date and the milestone closed time from the data output files.  
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_6.py
   
 7. Most of the commits are close to the submission dates. 
-  - This is a manual task. We check the commit logs and the dates of submissions.  
-  - Link: 
+  - This is a manual task. We check the commit logs and the dates of submissions.   
  
 8. Issues have not been resolved.
   - The issue closed time is checked for each issue.   
@@ -126,7 +123,7 @@ NOTE: Our feature extractor and bad smell detectors are not specified separately
 
 13. Lack of communication in issues.
   - We extract the comments field from the data output files.  
-  - Link: 
+  - Link:https://github.com/incognito666/project2/blob/master/badsmell_13.py
 
 14. No update in the issues for a long time.
   - We extract created time, updated time for each issue.  
@@ -154,14 +151,13 @@ graphs here?
 # Bad Smells Detector  
 
 1. A large percentage of commits are not done by a single person.  
-  - 
- 
+  - Looking at the contributors page in the repos you can see who has committed to the project and how much. A bad smell would be if someone took over the project and had a majority of the commits (20% or more than the expected contribution amount).  
 2. There are no unused used labels for issues.  
   - The labels extracted directly from the label API are compared with the labels used in the issues. If there is any label which was not used in any of the issues, it is a bad smell.  
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_2.py
 
 3. An issue is not assigned to a single label for a long period of time.
-  -    
+  - For each issue a label should be assigned to it to let the contributors of the project know what phase that issue is in during development. A badsmell would be if an issue goes a long time (12 hours in our case) without having a label attached to it. 
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_3.py
   
 4. There are no unassigned issues.
@@ -169,14 +165,14 @@ graphs here?
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_4.py
   
 5. The number of commits by a member is not less that 25% of the commits.
-  - 
+  - Looking at the contributors page in the repos you can see who has committed to the project and how much. A bad smell would be if someone did not commit close to an even share to the project. i.e. (total # of commits)/(# of contributors) give or take 5-10%.
  
 6. Milestones not met on time.
   - The milestone end date is subtracted from the milestone due date. If the difference is more than one day, it is a bad smell.  
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_6.py
   
 7. Most of the commits are close to the submission dates. 
-  - 
+  - Looking at the contributors page in the repo you can see when the commits happen. A bad smell would be if there is a huge curve near the end of the deadline which will signal waiting till the last minute. 
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_7.py
 
 8. All the issue  have not been resolved.
@@ -188,7 +184,7 @@ graphs here?
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_9.py
  
 10. Some issues have been open for too long. 
-  -   
+  - For each issue, we capture the total time the issue was active. We find the average time an issue is opened and if an issue is open longer than 2 times the average time then that will signal a bad smell.
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_10.py
   
 11. No issues in the milestone.  
@@ -208,7 +204,7 @@ graphs here?
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_14.py
 
 15. Labels are applied and immediately removed from an issue
-  -   
+  -   For each issue we will search through the events and look to see if a label is applied. Once we find an applied label we see if that label has been removed. A badsmell would be if the label was removed within 5 minutes (which is a configurable number) showing that not much time was spent in that phase. 
   - Link: https://github.com/incognito666/project2/blob/master/badsmell_15.py
 
 18. Only one step in whole development period.
