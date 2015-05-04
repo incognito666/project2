@@ -197,7 +197,7 @@ graphs here?
 
 13. Lack of communication in the issues.
   - For each issue, we check the comments and the question field. If there are no comments it means lack of communication and if the question field is empty, its considered as really bad smell.  
-  - Link: 
+  - Link: https://github.com/incognito666/project2/blob/master/badsmell_13.py
 
 14. No update in the issues for a long time.
   - For each issue, the difference between the issue opened at and updated at time is checked if its more than usual, this implies the issue has not been updated for a long time. 
