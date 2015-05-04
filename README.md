@@ -222,7 +222,25 @@ graphs here?
 # Bad Smells Results  
 
 1. A large percentage of commits are not done by a single person.  
-  - 
+  - Tarantula  
+  ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_p.png)  
+As seen in the figure above, the commits for this project are distributed fairly evenly. 
+Total Number of Commits: 60
+By each member, number of commits are 15, 13, ,12, 11, 9 sorted in descending order.  
+
+
+  - Web scraper  
+  ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_w.png)  
+From the figure, we can observer that there is quite a big difference in the number of commits between A and C.  
+Total Number of Commits: 455
+By each member, number of commits are 193, 180, 62, 38 sorted in descending order.  
+
+  - Maze  
+  ![Image for Badsmell 1 - Tarantula] (https://github.com/incognito666/project2/blob/master/Contribution_m.png)  
+From the figure, we can observer that there is quite a big difference in the number of commits between A, C and D.  
+Total Number of Commits: 378
+By each member, number of commits are 151, 127, ,82 sorted in descending order.  
+
  
 2. There are no unused used labels for issues. 
   ![Image for Badsmell 2 - Tarantula] (https://github.com/incognito666/project2/blob/master/graph/badsmell_2_tarantula.png)  
