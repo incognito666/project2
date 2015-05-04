@@ -290,7 +290,7 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
    ADD GRAPH  
 
 8. All the issue  have not been resolved.   
-   - For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects
+    For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects
 
 
 9. Issues are not closed on time.
@@ -305,6 +305,13 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
    ![Image for Badsmell 11] (https://github.com/incognito666/project2/blob/master/graph/badsmell_11.png)  
 
 12. Just one issue in the milestone.
+   ![Image for Badsmell12] (https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)
+
+The following graph has been plotted for the three projects indicating the number of bad smells.
+The X axis of the graph indicates the project number as tarantula in python, Project scrapping, Maze generation correspondingly 
+
+The Y axis indicates the number of issues having this bad smell
+The green bar in the histogram indicates the bad smells.
 
 
 13. Lack of communication in the issues.
