@@ -481,7 +481,7 @@ From the Graph you can see that there are 14 instanced where a Issues lasted twi
    
    The following graph has been plotted for the three projects indicating the number of bad smells.
 
-   ![Image for Badsmell12] (https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)
+   ![Image for Badsmell12] (https://github.com/incognito666/project2/blob/master/graph/badsmell12.png)
    
    The X axis of the graph indicates the project number where they represent, tarantula in python, Project scrapping and Maze generation accordingly.
 
@@ -501,7 +501,7 @@ From the Graph you can see that there are 14 instanced where a Issues lasted twi
     
     The following graph has been plotted for the three projects indicating the number of bad smells.
 
-    ![Image for Badsmell14] (https://github.com/incognito666/project2/blob/master/graph/badsmell_14.png)
+    ![Image for Badsmell14] (https://github.com/incognito666/project2/blob/master/graph/badsmell14.png)
 
     The X axis of the graph indicates the project number where they represent, tarantula in python, Project scrapping and Maze generation accordingly.
 
