@@ -309,6 +309,7 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 | 15    | duplicate   | 3                            | Badsmell |
 | 36    | Solved      | 7                            | Badsmell |
 
+    * As you can see that not every issue has labels that are assigned then removed. There is no standard way of assigning labels which explains the differing labelling techniques. 
 # Bad Smells Detector  
 
 1. A large percentage of commits are not done by a single person.  
@@ -428,14 +429,29 @@ From the Graph you can see that there are 2 instanced where a Issue went over 12
 
 5. The number of commits by a member is not less that 25% of the commits.
  
-  ADD GRAPH   
+Looking at the graphs in #1. 
+- Tarantula  
+ 
+Total Number of Commits: 60
+By each member, number of commits are 15, 13, 12, 11, 9 sorted in descending order. You can see that each person should have about 12 Commits each. The lowest person has 9 commits which is less than 12 and could be flagged as a bad smell but the commits are fairly even. 
+
+
+  - Web scraper  
+  
+Total Number of Commits: 455
+By each member, number of commits are 193, 180, 62, 38 sorted in descending order. You can see that each person should have about 114 Commits each. The lowest person has 38 commits which would be a huge red flag. To fix this one could try and break up the features evenly. This could also be the outcome of having a group member who just commits multiple times a day then there is no problem really. 
+
+  - Maze  
+ 
+Total Number of Commits: 378
+By each member, number of commits are 151, 127, 82 sorted in descending order. You can see that each person should have about 126 Commits each. The lowest person has 82 commits which would be a bad smell. To fix this one could evenly distribute the features or have the code reviewers submit the code.  
 
 6. Milestones not met on time.
    ![Image of Badsmell 6] (https://github.com/incognito666/project2/blob/master/graph/badsmell_6.png)  
 
 7. Most of the commits are close to the submission dates.  
 
-   ADD GRAPH  
+   Looking at the graphs in #1, you can see that in all 3 repos that there are a large number of submits towards the end of the submission date. This could mainly be how Grad Students work. Also working with a group of people you may not have worked with before may also contribute to the rush at the end. To solve this just try to set up better due dates based off of your abilities. Ff you have a feature that is pretty big you should try to break it up into smaller more manageable pieces that can be split between multiple people.   
 
 8. All the issue  have not been resolved.   
     For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects
@@ -486,18 +502,15 @@ From the Graph you can see that there are 14 instanced where a Issues lasted twi
     The Y axis indicates the number of issues having this bad smell. The blue bar in the histogram indicates the bad smells.
 
 15. Labels are applied and immediately removed from an issue
-- Tarantula  
-  ![Image for Badsmell 3 - Tarantula] (https://github.com/incognito666/project2/blob/master/PythonTarantula/BS3.png)  
-From the Graph you can see that there are 7 instanced where a Issue went over 12 hours without having a label. This could be a slight problem for a project with 30 Issues. The initial Issues can be excused since adding labels was not specified at first. But having a bunch of Issues without labels shows disorganization which can lead to uncertainty and delivery slip of certain features and the product. You could fix it by having another developer review your issues once created.  
+  - Tarantula  
+In the tables shown in the Feature Detection Results, you can see that there are 2 instances of a bad smell. These can be resolved by having a better schedule and distributing the work better.    
 
 
   - Web scraper  
-  ![Image for Badsmell 3 - Web scraper] (https://github.com/incognito666/project2/blob/master/WebScraping/BS3.png)  
-From the Graph you can see that there are 3 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 69 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created. 
+In the tables shown in the Feature Detection Results, you can see that there are 4 instances of a bad smell. These labels are secondary labels which can be done quickly. 
 
   - Maze  
-  ![Image for Badsmell 3 - Maze] (https://github.com/incognito666/project2/blob/master/Maze/BS3.png)  
-From the Graph you can see that there are 2 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 93 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created. 
+In the tables shown in the Feature Detection Results, you can see that there are 2 instances of a bad smell. These instances could just be a lapse in memory of keeping track the progress and can be resolved with having someone check that the issues are up to date or have a regular meeting (scrum) to go over the open issues. 
 
 18. Only one step in whole development period.
   ![Image for Badsmell 18] (https://github.com/incognito666/project2/blob/master/graph/badsmell_18.png)  
