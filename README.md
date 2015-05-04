@@ -308,7 +308,16 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
 
 12. Just one issue in the milestone.
 
-   ADD GRAPH  
+This can be detected by number of Issues per milestone. If there are no more than one Issue per milestone then that is consider to be a bad smell.
+The following graph has been plotted for the three projects indicating the number of bad smells.
+The X axis of the graph indicates the project number where
+1: tarantula in python
+2: Project scrapping
+3: Maze generation 
+
+The Y axis indicates the number of issues having this bad smell
+The green bar in the histogram indicates the bad smells.
+   ![Image for Badsmell 12](https://github.com/incognito666/project2/blob/master/graph/badsmell_12.png)  
 
 13. Lack of communication in the issues.
 
