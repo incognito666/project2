@@ -5,7 +5,21 @@ Software Engineering
 # 1.Collection  
 
 We are using the already provided gitable.py with few modifications.  
-We have modified gitable to include some information from the Github API, write the data into a text file with comma separated values, and added our anonymization logic.  
+We have modified gitable to include some information from the Github API, write the data into a text file and a  comma separated value file, and added our anonymization logic.  
+
+The additions that we made to the existing `gitable.py` is in the fields being collected. We have added the fields that we require to the existing code. Here is a snippet of the same   
+```python
+if milestone != None :
+        milestone_name = milestone['title']
+        milestone_created = secs(event['issue']['milestone']['created_at'])
+        milestone_due = secs(event['issue']['milestone']['due_on'])
+        milestone_closed = secs(event['issue']['milestone']['closed_at'])
+        milestone_open_issues = event['issue']['milestone']['open_issues']
+        milestone_closed_issues = event['issue']['milestone']['closed_issues']
+        milestone_total = milestone_open_issues + milestone_closed_issues
+```
+
+[Link to the modified script] (https://github.com/incognito666/project2/blob/master/gitable_27.py)  
 
 # 2.Anonymization   
 
@@ -20,6 +34,8 @@ user = users[user]
 ```   
 
 `name_i` has been initialized with 65. Hence, `chr(name_i)` will give us the character of that ASCII integer.    
+
+This function is a part of the script for data collection,so, the data is anonymized before we save it in txt and csv form.    
 
 # 3.Tables  
 
@@ -39,9 +55,9 @@ The other tables created in this report follow the same data parsing structure.
 
 We are detecting bad smells from three projects:  
 
-1) [Tarantula in Python] (https://api.github.com/repos/incognito666/tarantula-python/issues/)    
-2) [Web Scraper] (https://api.github.com/repos/SuperCh-SE-NCSU/ProjectScraping/issues/)    
-3) [Maze] (https://api.github.com/repos/CSC510-2015-Axitron/maze/issues/)     
+1) [Tarantula in Python] (https://api.github.com/repos/incognito666/tarantula-python/issues/) ([csv](https://github.com/incognito666/project2/blob/master/Data_Table_p.csv))      
+2) [Web Scraper] (https://api.github.com/repos/SuperCh-SE-NCSU/ProjectScraping/issues/) ([csv](https://github.com/incognito666/project2/blob/master/Data_Table_w.csv))     
+3) [Maze] (https://api.github.com/repos/CSC510-2015-Axitron/maze/issues/)  ([csv](https://github.com/incognito666/project2/blob/master/Data_Table_m.csv))   
 
 For each project, we collected the following data:  
 - The issue number
