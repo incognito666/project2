@@ -276,7 +276,7 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
    ADD GRAPH   
 
 4. There are no unassigned issues.
-
+   For the projects Tarantula in python, project scraping and Maze generation all the issues have been closed. Hence this bad smell was not visible in any of these projects
 
 5. The number of commits by a member is not less that 25% of the commits.
  
