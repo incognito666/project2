@@ -166,11 +166,145 @@ Issue Opened Time (s) |	Issue Closed Time (s) |	Issue Total Alive Time (s)
 1423886884 |	1425169392 |	1282508
 1423886965 |	1427068117 |	3181152
 
+ - Feature Design 15
+    * Maze
+| Issue | Label              | Time Label is open (seconds) |          |
+|-------|--------------------|------------------------------|----------|
+| 1     | help wanted        | 2655                         |          |
+| 1     | feature request    | 2691                         |          |
+| 2     | feature request    | 66080                        |          |
+| 2     | feature dev        | 4684                         |          |
+| 2     | feature QA         | 124615                       |          |
+| 2     | help wanted        | 3767                         |          |
+| 5     | feature request    | 102559                       |          |
+| 5     | feature dev        | 160                          | Badsmell |
+| 5     | feature QA         | 27507                        |          |
+| 6     | feature request    | 175687                       |          |
+| 6     | feature dev        | 188719                       |          |
+| 6     | feature dev        | 478581                       |          |
+| 6     | help wanted        | 83151                        |          |
+| 6     | feature QA         | 415335                       |          |
+| 6     | feature dev        | 91201                        |          |
+| 7     | feature request    | 697919                       |          |
+| 7     | feature dev        | 472226                       |          |
+| 7     | help wanted        | 15857                        |          |
+| 8     | feature request    | 364451                       |          |
+| 8     | feature QA         | 290326                       |          |
+| 9     | feature QA         | 779671                       |          |
+| 9     | feature dev        | 52573                        |          |
+| 10    | feature request    | 340720                       |          |
+| 10    | feature dev        | 328861                       |          |
+| 11    | feature request    | 299966                       |          |
+| 11    | feature dev        | 64039                        |          |
+| 12    | feature dev        | 83556                        |          |
+| 13    | feature request    | 3264                         |          |
+| 13    | feature dev        | 198491                       |          |
+| 15    | feature QA         | 202                          | Badsmell |
+| 20    | feature request    | 51781                        |          |
+| 20    | feature dev        | 214071                       |          |
+| 20    | feature QA         | 125553                       |          |
+| 21    | deployment         | 720251                       |          |
+| 23    | feature QA         | 24987                        |          |
+| 23    | feature dev        | 24987                        |          |
+| 28    | feature request    | 198725                       |          |
+| 34    | feature request    | 264481                       |          |
+| 34    | feature QA         | 89198                        |          |
+| 35    | 2a. feature dev    | 22977                        |          |
+| 36    | 2a. feature dev    | 5330                         |          |
+| 36    | 3. feature QA      | 61640                        |          |
+| 37    | 2a. feature dev    | 242969                       |          |
+| 38    | 2a. feature dev    | 266074                       |          |
+| 39    | bug                | 4280                         |          |
+| 40    | 3. feature QA      | 59287                        |          |
+| 41    | 1. feature request | 642106                       |          |
+| 41    | 2a. feature dev    | 33743                        |          |
+| 41    | 3. feature QA      | 161672                       |          |
+| 43    | 1. feature request | 60387                        |          |
+| 43    | 2a. feature dev    | 8877                         |          |
+| 43    | 3. feature QA      | 6462                         |          |
+| 44    | 1. feature request | 188738                       |          |
+| 44    | 2a. feature dev    | 346026                       |          |
+| 44    | 3. feature QA      | 120137                       |          |
+| 47    | 1. feature request | 1119189                      |          |
+| 47    | 3. feature QA      | 6783                         |          |
+| 49    | 2a. feature dev    | 30593                        |          |
+| 49    | 3. feature QA      | 109177                       |          |
+| 51    | 1. feature request | 599343                       |          |
+| 51    | 2a. feature dev    | 16247                        |          |
+| 51    | 3. feature QA      | 74227                        |          |
+| 53    | 1. feature request | 330080                       |          |
+| 53    | 2a. feature dev    | 50268                        |          |
+| 53    | 3. feature QA      | 4599                         |          |
+| 54    | 1. feature request | 23702                        |          |
+| 54    | 2a. feature dev    | 3077                         |          |
+| 56    | 1. feature request | 57383                        |          |
+| 56    | 2a. feature dev    | 64040                        |          |
+| 56    | 3. feature QA      | 26605                        |          |
+| 58    | 1. feature request | 234068                       |          |
+| 58    | 2a. feature dev    | 13380                        |          |
+| 58    | 3. feature QA      | 96689                        |          |
+| 59    | 1. feature request | 344044                       |          |
+| 60    | 1. feature request | 2310                         |          |
+| 61    | 1. feature request | 341461                       |          |
+| 62    | 1. feature request | 363243                       |          |
+| 64    | 1. feature request | 78251                        |          |
+| 64    | 2a. feature dev    | 95841                        |          |
+| 65    | 5. bug             | 68334                        |          |
+| 68    | 1. feature request | 181449                       |          |
+| 69    | 2a. feature dev    | 1117                         |          |
+| 69    | 3. feature QA      | 48111                        |          |
+| 70    | 1. feature request | 26589                        |          |
+| 70    | 2a. feature dev    | 18376                        |          |
+| 70    | 3. feature QA      | 56615                        |          |
+| 71    | 1. feature request | 12851                        |          |
+| 73    | 1. feature request | 22700                        |          |
+| 74    | 1. feature request | 16125                        |          |
+| 75    | 1. feature request | 22704                        |          |
+| 75    | 2a. feature dev    | 50555                        |          |
+| 75    | 3. feature QA      | 26345                        |          |
+| 76    | 2a. feature dev    | 145636                       |          |
+| 77    | 1. feature request | 530726                       |          |
+| 79    | 2a. feature dev    | 1092                         |          |
+| 81    | 2a. feature dev    | 204222                       |          |
+| 82    | 1. feature request | 7606                         |          |
+| 82    | 2a. feature dev    | 366                          |          |
+| 82    | 3. feature QA      | 26178                        |          |
+| 84    | 2a. feature dev    | 26276                        |          |
+| 85    | 2a. feature dev    | 21362                        |          |
+| 86    | 2a. feature dev    | 21247                        |          |
+| 87    | 1. feature request | 15391                        |          |
+| 88    | 2a. feature dev    | 151891                       |          |
+| 89    | 2a. feature dev    | 12143                        |          |
+| 89    | 3. feature QA      | 10882                        |          |
+| 90    | 2a. feature dev    | 34766                        |          |
+| 90    | 3. feature QA      | 451                          |          |
+| 92    | 3. feature QA      | 8584                         |          |
 
+    * Tarantula
+| Issue | Label       | Time Label is open (seconds) |          |
+|-------|-------------|------------------------------|----------|
+| 20    | enhancement | 811604                       |          |
+| 20    | Code        | 811604                       |          |
+| 22    | Code        | 13                           | Badsmell |
+| 24    | enhancement | 1729499                      |          |
+| 24    | Design      | 1729499                      |          |
+| 24    | Code        | 1729499                      |          |
+| 26    | Design      | 701459                       |          |
+| 26    | Code        | 701459                       |          |
+| 27    | Design      | 702993                       |          |
+| 27    | Code        | 702993                       |          |
+| 27    | Code Review | 16                           | Badsmell |
 
-
-
-
+    * Web Scrapping
+| Issue | Label       | Time Label is open (seconds) |          |
+|-------|-------------|------------------------------|----------|
+| 5     | help wanted | 80825                        |          |
+| 5     | Solved      | 2265                         |          |
+| 5     | Solved      | 2269                         |          |
+| 5     | bug         | 0                            | Badsmell |
+| 5     | Solved      | 4                            | Badsmell |
+| 15    | duplicate   | 3                            | Badsmell |
+| 36    | Solved      | 7                            | Badsmell |
 
 # Bad Smells Detector  
 
@@ -272,12 +406,22 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
   ![Image for Badsmell 2 - Mazes] (https://github.com/incognito666/project2/blob/master/graph/badsmell_2_mazes.png) 
   
 3. An issue is not assigned to a single label for a long period of time.
-  
-   ADD GRAPH   
+  - Tarantula  
+  ![Image for Badsmell 3 - Tarantula] (https://github.com/incognito666/project2/blob/master/PythonTarantula/BS3.png)  
+From the Graph you can see that there are 7 instanced where a Issue went over 12 hours without having a label. This could be a slight problem for a project with 30 Issues. The initial Issues can be excused since adding labels was not specified at first. But having a bunch of Issues without labels shows disorganization which can lead to uncertainty and delivery slip of certain features and the product. You could fix it by having another developer review your issues once created.  
+
+
+  - Web scraper  
+  ![Image for Badsmell 3 - Web scraper] (https://github.com/incognito666/project2/blob/master/WebScraping/BS3.png)  
+From the Graph you can see that there are 3 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 69 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created. 
+
+  - Maze  
+  ![Image for Badsmell 3 - Maze] (https://github.com/incognito666/project2/blob/master/Maze/BS3.png)  
+From the Graph you can see that there are 2 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 93 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created.    
 
 4. There are no unassigned issues.
    
-   For the projects Tarantula in python, project scraping and Maze generation all the issues have been assigned. Hence this bad smell was not visible in any of these projects
+   For the projects Tarantula in python, project scraping and Maze generation all the issues have been assigned. Hence this bad smell was not visible in any of these projects. But if this was an issue you could resolve this by having a person (Manager of some sort) responsible for checking the issues frequently to see if there are issues that may have not been assigned to anyone.  
 
 5. The number of commits by a member is not less that 25% of the commits.
  
@@ -298,9 +442,18 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
   ![Image for Badsmell 9] (https://github.com/incognito666/project2/blob/master/graph/badsmell_9.png)  
 
 10. Some issues have been open for too long. 
+  - Tarantula  
+  ![Image for Badsmell 3 - Tarantula] (https://github.com/incognito666/project2/blob/master/PythonTarantula/BS10.png)  
+From the Graph you can see that there are 4 instanced where a Issues lasted twice as long as the average. These Issues are spaced out so there isn't a pattern that you can see. This could just be where a few of the harder or more intensive features got put in. To avoid this in the future I would break down those issues into smaller issues to help knock those out quickly. 
 
-   ADD GRAPH  
 
+  - Web scraper  
+  ![Image for Badsmell 3 - Web scraper] (https://github.com/incognito666/project2/blob/master/WebScraping/BS10.png)  
+From the Graph you can see that there are 13 instanced where a Issues lasted twice as long as the average. The bad smells seem bunched up. This could just be where a lot of the harder or more intensive features got put in. To avoid this in the future I would break down those issues into smaller issues to help knock those out quickly. 
+
+  - Maze  
+  ![Image for Badsmell 3 - Maze] (https://github.com/incognito666/project2/blob/master/Maze/BS10.png)  
+From the Graph you can see that there are 14 instanced where a Issues lasted twice as long as the average. The bad smells seem bunched up. This could just be where a lot of the harder or more intensive features got put in. To avoid this in the future I would break down those issues into smaller issues to help knock those out quickly. 
   
 11. No issues in the milestone.  
    ![Image for Badsmell 11] (https://github.com/incognito666/project2/blob/master/graph/badsmell_11.png)  
@@ -330,8 +483,18 @@ By each member, number of commits are 151, 127, ,82 sorted in descending order.
     The Y axis indicates the number of issues having this bad smell. The blue bar in the histogram indicates the bad smells.
 
 15. Labels are applied and immediately removed from an issue
+- Tarantula  
+  ![Image for Badsmell 3 - Tarantula] (https://github.com/incognito666/project2/blob/master/PythonTarantula/BS3.png)  
+From the Graph you can see that there are 7 instanced where a Issue went over 12 hours without having a label. This could be a slight problem for a project with 30 Issues. The initial Issues can be excused since adding labels was not specified at first. But having a bunch of Issues without labels shows disorganization which can lead to uncertainty and delivery slip of certain features and the product. You could fix it by having another developer review your issues once created.  
 
-   ADD GRAPH  
+
+  - Web scraper  
+  ![Image for Badsmell 3 - Web scraper] (https://github.com/incognito666/project2/blob/master/WebScraping/BS3.png)  
+From the Graph you can see that there are 3 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 69 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created. 
+
+  - Maze  
+  ![Image for Badsmell 3 - Maze] (https://github.com/incognito666/project2/blob/master/Maze/BS3.png)  
+From the Graph you can see that there are 2 instanced where a Issue went over 12 hours without having a label. This is fairly good for a project with 93 Issues. This shows that there was structure and a good flow. If this was a problem, you could fix it by having another developer review your issues once created. 
 
 18. Only one step in whole development period.
   ![Image for Badsmell 18] (https://github.com/incognito666/project2/blob/master/graph/badsmell_18.png)  
